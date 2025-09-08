@@ -1,1 +1,1 @@
-print("I am Abhay.AI")
+print("I am Abhay")
