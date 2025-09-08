@@ -1,0 +1,501 @@
+Gender_x,State,District,Taluka,City,School_name[0],City_type,School_medium,School_std,ParentOccupation,ParentMaritalStatus,Family_income,Cast,Disabled,Reason,StudentID,Gender_y,Attendance_Rate,,Test_Score,Fees
+male,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,-1,Police Officer,3,More than 6 lakh,ST,0,Academic Struggles,1,Male,68.26784098,,63,0.437086107
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,10,Artist,0,1-2 Lakh,Open,50,Cultural or Language Barriers,2,Male,78.22292713,,50,0.955642876
+male,Gujarat,Sabarkantha,Idar,Idar,657b579a60bba63ffcd0f9c6,Rural,English,3,Writer,1,2-4 Lakh,SEBC,0,Cultural or Language Barriers,3,Female,87.52509624,,55,0.758794548
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,40,Health and Personal Issues,4,Female,92.07648302,,65,0.638792636
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,1,Firefighter,2,4-6 Lakh,SC,0,Health and Personal Issues,5,Female,98.65551746,,70,0.240416776
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,40,Bullying and Social Issues,6,Male,84.15919282,,61,0.240395068
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,1,Firefighter,2,4-6 Lakh,SC,0,Bullying and Social Issues,7,Male,89.38949444,,61,0.152275251
+male,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,-1,Police Officer,3,More than 6 lakh,ST,0,Bullying and Social Issues,8,Male,50.68359824,,50,0.879558531
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,40,Academic Struggles,9,Female,80.8631856,,65,0.641003511
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,1,Firefighter,2,4-6 Lakh,SC,0,Academic Struggles,10,Male,65.49684631,,55,0.73726532
+male,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,1,Journalist,3,More than 6 lakh,SC,2,Academic Struggles,11,Female,69.83246865,,57,0.118526045
+male,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,1,Journalist,3,More than 6 lakh,SC,80,Peer Pressure,12,Male,92.10457075,,62,0.972918867
+male,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,2,Police Officer,3,More than 6 lakh,ST,0,Academic Struggles,13,Male,78.8815977,,59,0.849198377
+male,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,2,Police Officer,3,More than 6 lakh,ST,0,Academic Struggles,14,Female,66.60732063,,50,0.2911052
+male,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,2,Police Officer,3,More than 6 lakh,ST,0,Academic Struggles,15,Female,62.21765777,,50,0.26364247
+male,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,2,Police Officer,3,More than 6 lakh,ST,0,Academic Struggles,16,Female,55.03973015,,50,0.265064059
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,-1,Artist,0,1-2 Lakh,Open,50,Transportation and Access,17,Male,93.03160089,,77,0.373818019
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,18,Female,71.08519673,,56,0.572280788
+male,Gujarat,Rajkot,Gondal,Moviya,658021132fec1162ab3345ab,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Family and Economic Factors,19,Female,97.70434683,,58,0.488750517
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,20,Female,85.19730676,,57,0.362106226
+male,Gujarat,Anand,Borsad,Borsad,658021132fec1162ab3345ab,Rural,Gujarati,4,Pharmacist,2,2-4 Lakh,SEBC,0,Family and Economic Factors,21,Female,92.07648302,,65,0.650667605
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,22,Male,80.09676978,,55,0.225544475
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Financial Analyst,3,4-6 Lakh,SC,50,Family and Economic Factors,23,Male,97.22048628,,65,0.362930184
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,24,Male,93.82220379,,57,0.429725659
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,8,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,25,Female,89.07572409,,62,0.510462986
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,26,Female,70.01502445,,50,0.806658365
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Business Owner,3,More than 6 lakh,General,0,Family and Economic Factors,27,Male,99.02884001,,64,0.279706404
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,-1,Artist,0,1-2 Lakh,Open,50,Transportation and Access,28,Female,78.98249672,,71,0.562810995
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,29,Female,68.89252746,,58,0.633173112
+male,Gujarat,Rajkot,Gondal,Moviya,658021132fec1162ab3345ab,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Family and Economic Factors,30,Female,79.25747662,,50,0.141805371
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,31,Male,50.91212407,,50,0.646790367
+male,Gujarat,Anand,Borsad,Borsad,658021132fec1162ab3345ab,Rural,Gujarati,4,Pharmacist,2,2-4 Lakh,SEBC,0,Family and Economic Factors,32,Male,78.79992089,,61,0.253471711
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,33,Female,77.83607924,,61,0.158546434
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Financial Analyst,3,4-6 Lakh,SC,50,Family and Economic Factors,34,Female,96.20208796,,67,0.953996984
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,35,Female,59.22314357,,64,0.96906883
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,8,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,36,Female,93.053401,,61,0.827557613
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,37,Female,68.86429826,,64,0.374152392
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Business Owner,3,More than 6 lakh,General,0,Family and Economic Factors,38,Male,84.35827527,,59,0.187904903
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,-1,Artist,0,1-2 Lakh,Open,50,Transportation and Access,39,Male,90.26574837,,64,0.715809724
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,40,Female,73.71186544,,55,0.496137244
+male,Gujarat,Rajkot,Gondal,Moviya,658021132fec1162ab3345ab,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Family and Economic Factors,41,Male,88.44588707,,56,0.209834411
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,42,Male,81.96806785,,56,0.545659219
+male,Gujarat,Anand,Borsad,Borsad,658021132fec1162ab3345ab,Rural,Gujarati,4,Pharmacist,2,2-4 Lakh,SEBC,0,Family and Economic Factors,43,Female,68.86429826,,64,0.130949669
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,44,Male,65.80982911,,65,0.918388362
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Financial Analyst,3,4-6 Lakh,SC,50,Family and Economic Factors,45,Female,86.60922892,,55,0.332901983
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,46,Female,70.31961541,,59,0.696270056
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,8,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,47,Female,60.08652312,,50,0.380539968
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,48,Female,66.6407893,,54,0.568061219
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Business Owner,3,More than 6 lakh,General,0,Family and Economic Factors,49,Male,85.92286354,,55,0.592039251
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,-1,Artist,0,1-2 Lakh,Open,50,Transportation and Access,50,Female,89.07572409,,62,0.26636901
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,51,Female,76.48308393,,63,0.972626165
+male,Gujarat,Rajkot,Gondal,Moviya,658021132fec1162ab3345ab,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Family and Economic Factors,52,Female,90.81928676,,56,0.797619541
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,53,Male,77.4301559,,58,0.945549047
+male,Gujarat,Anand,Borsad,Borsad,658021132fec1162ab3345ab,Rural,Gujarati,4,Pharmacist,2,2-4 Lakh,SEBC,0,Family and Economic Factors,54,Female,89.82358878,,68,0.905344615
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,55,Female,80.15987011,,50,0.638109981
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Financial Analyst,3,4-6 Lakh,SC,50,Family and Economic Factors,56,Male,88.69172616,,50,0.929686812
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,57,Male,91.25663383,,63,0.179643252
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,8,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,58,Female,62.6944282,,54,0.276384576
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,59,Female,92.40640477,,53,0.14070456
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Business Owner,3,More than 6 lakh,General,0,Family and Economic Factors,60,Male,66.79329286,,55,0.392797298
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,-1,Artist,0,1-2 Lakh,Open,50,Transportation and Access,61,Male,95.53120018,,65,0.449809561
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,62,Male,81.66203875,,66,0.344214129
+male,Gujarat,Rajkot,Gondal,Moviya,658021132fec1162ab3345ab,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Family and Economic Factors,63,Male,60.25226643,,50,0.845863758
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,64,Female,91.85394954,,67,0.421077994
+male,Gujarat,Anand,Borsad,Borsad,658021132fec1162ab3345ab,Rural,Gujarati,4,Pharmacist,2,2-4 Lakh,SEBC,0,Family and Economic Factors,65,Male,81.66203875,,66,0.352841059
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,66,Female,93.41505535,,63,0.588426475
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Financial Analyst,3,4-6 Lakh,SC,50,Family and Economic Factors,67,Female,86.07664306,,51,0.226831802
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,68,Female,87.08434721,,60,0.821977283
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,8,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,69,Female,56.43741991,,50,0.167095579
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,70,Female,54.55010455,,50,0.988198243
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Business Owner,3,More than 6 lakh,General,0,Family and Economic Factors,71,Male,80.30509405,,56,0.795020292
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,-1,Artist,0,1-2 Lakh,Open,50,Transportation and Access,72,Female,59.11419392,,57,0.278844113
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,73,Male,59.80565498,,50,0.104969905
+male,Gujarat,Rajkot,Gondal,Moviya,658021132fec1162ab3345ab,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Family and Economic Factors,74,Male,60.63403922,,50,0.833915286
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,75,Male,73.6605059,,57,0.736171609
+male,Gujarat,Anand,Borsad,Borsad,658021132fec1162ab3345ab,Rural,Gujarati,4,Pharmacist,2,2-4 Lakh,SEBC,0,Family and Economic Factors,76,Female,76.82406757,,50,0.756106451
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,77,Male,62.41132214,,50,0.794143312
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Financial Analyst,3,4-6 Lakh,SC,50,Family and Economic Factors,78,Male,96.64690335,,63,0.166640187
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,79,Female,98.72736326,,66,0.422619156
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,8,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,80,Female,84.88337868,,50,0.204282154
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,81,Male,98.75335815,,71,0.876793083
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Business Owner,3,More than 6 lakh,General,0,Family and Economic Factors,82,Male,97.93135887,,61,0.660968314
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,-1,Artist,0,1-2 Lakh,Open,50,Transportation and Access,83,Male,94.98236986,,71,0.397808222
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,84,Male,80.52023335,,59,0.157202515
+male,Gujarat,Rajkot,Gondal,Moviya,658021132fec1162ab3345ab,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Family and Economic Factors,85,Female,86.02580307,,60,0.37988409
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,86,Female,65.72982784,,58,0.39266499
+male,Gujarat,Anand,Borsad,Borsad,658021132fec1162ab3345ab,Rural,Gujarati,4,Pharmacist,2,2-4 Lakh,SEBC,0,Family and Economic Factors,87,Male,76.86317084,,57,0.756645561
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,88,Male,54.36450898,,50,0.673801724
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Financial Analyst,3,4-6 Lakh,SC,50,Family and Economic Factors,89,Female,74.23891836,,60,0.898491468
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,90,Female,79.37268021,,61,0.524993433
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,8,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,91,Female,77.83607924,,61,0.207634821
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,92,Male,90.26574837,,64,0.741920309
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Business Owner,3,More than 6 lakh,General,0,Family and Economic Factors,93,Female,54.34625075,,50,0.784706544
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,-1,Artist,0,1-2 Lakh,Open,50,Transportation and Access,94,Female,60.22722966,,56,0.605149478
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,95,Female,86.14480483,,50,0.793870462
+male,Gujarat,Rajkot,Gondal,Moviya,658021132fec1162ab3345ab,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Family and Economic Factors,96,Male,56.69260594,,50,0.544416037
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,97,Male,77.37231534,,57,0.570459546
+male,Gujarat,Anand,Borsad,Borsad,658021132fec1162ab3345ab,Rural,Gujarati,4,Pharmacist,2,2-4 Lakh,SEBC,0,Family and Economic Factors,98,Male,74.91238489,,61,0.484786917
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,99,Female,67.25960724,,64,0.122877214
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Financial Analyst,3,4-6 Lakh,SC,50,Family and Economic Factors,100,Female,99.02313625,,55,0.197102284
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,101,Male,87.49553747,,57,0.128286267
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,8,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,102,Male,77.43576546,,52,0.67276937
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,103,Female,87.21248259,,65,0.382920383
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Business Owner,3,More than 6 lakh,General,0,Family and Economic Factors,104,Female,71.10180298,,51,0.557713622
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,-1,Artist,0,1-2 Lakh,Open,50,Transportation and Access,105,Male,67.69356883,,56,0.916809827
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,106,Male,76.71731375,,50,0.324363006
+male,Gujarat,Rajkot,Gondal,Moviya,658021132fec1162ab3345ab,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Family and Economic Factors,107,Male,78.47217589,,50,0.469344631
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,108,Male,81.66203875,,66,0.779996025
+male,Gujarat,Anand,Borsad,Borsad,658021132fec1162ab3345ab,Rural,Gujarati,4,Pharmacist,2,2-4 Lakh,SEBC,0,Family and Economic Factors,109,Male,96.60071711,,52,0.305918349
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,110,Female,87.95179228,,64,0.169281919
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Financial Analyst,3,4-6 Lakh,SC,50,Family and Economic Factors,111,Male,62.53653303,,52,0.360776308
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,112,Female,95.86978065,,66,0.245099159
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,8,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,113,Male,94.87152049,,63,0.936727887
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,114,Male,91.33994139,,50,0.827308342
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Business Owner,3,More than 6 lakh,General,0,Family and Economic Factors,115,Male,52.78267447,,50,0.670063381
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,657b579a60bba63ffcd0f9c6,Rural,English,-1,Artist,0,1-2 Lakh,Open,50,Transportation and Access,116,Male,68.26784098,,63,0.884314531
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,117,Female,88.59409903,,50,0.823304869
+male,Gujarat,Rajkot,Gondal,Moviya,658021132fec1162ab3345ab,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Family and Economic Factors,118,Male,63.32491967,,50,0.267913053
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,119,Male,95.65828761,,61,0.903303099
+male,Gujarat,Anand,Borsad,Borsad,658021132fec1162ab3345ab,Rural,Gujarati,4,Pharmacist,2,2-4 Lakh,SEBC,0,Family and Economic Factors,120,Male,78.79992089,,61,0.585408018
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,121,Female,54.33526059,,50,0.82669614
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Financial Analyst,3,4-6 Lakh,SC,50,Family and Economic Factors,122,Female,61.36978104,,66,0.90648217
+male,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Police Officer,2,1-2 Lakh,SEBC,50,Family and Economic Factors,123,Male,76.1801138,,56,0.386203127
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,8,IT Professional,3,1-2 Lakh,Open,0,Family and Economic Factors,124,Female,89.07572409,,62,0.199046732
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,5,Writer,3,1-2 Lakh,General,50,Family and Economic Factors,125,Female,89.50423186,,64,0.305141646
+female,Gujarat,Panchmahal,Godhra,Godhra,658021132fec1162ab3345ab,Rural,Gujarati,6,Business Owner,3,More than 6 lakh,General,0,Family and Economic Factors,126,Female,98.39868827,,67,0.48439701
+female,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,7,Social Worker,0,4-6 Lakh,SEBC,0,Lack of Interest or Engagement,127,Female,83.49587323,,71,0.836213289
+male,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,9,IT Professional,2,1-2 Lakh,SEBC,60,Early Employment,128,Female,74.53743896,,57,0.874657525
+male,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,6,Business Owner,3,More than 6 lakh,General,0,Peer Pressure,129,Male,74.71369251,,53,0.106256917
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,130,Female,51.1092371,,51,0.559672572
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,131,Male,76.75348595,,64,0.475669903
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,132,Female,90.03748857,,67,0.299897029
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,-1,Artist,0,1-2 Lakh,Open,0,Academic Struggles,133,Female,78.87431355,,51,0.207878831
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,3,Artist,0,1-2 Lakh,Open,0,Transportation and Access,134,Female,95.86978065,,66,0.403853654
+other,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,5,Journalist,3,More than 6 lakh,SC,0,Transportation and Access,135,Male,61.7845873,,57,0.948618734
+other,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,2,Journalist,3,More than 6 lakh,SC,0,Transportation and Access,136,Female,91.90534816,,68,0.390882639
+male,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,0,Police Officer,3,More than 6 lakh,ST,0,Transportation and Access,137,Female,80.74751316,,52,0.56691156
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,0,Artist,0,1-2 Lakh,Open,0,Transportation and Access,138,Male,66.96356229,,61,0.732717063
+female,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,7,Social Worker,0,4-6 Lakh,SEBC,0,Lack of Interest or Engagement,139,Male,77.44609899,,57,0.427266642
+male,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,9,IT Professional,2,1-2 Lakh,SEBC,60,Early Employment,140,Male,68.72176849,,53,0.974603874
+male,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,6,Business Owner,3,More than 6 lakh,General,0,Peer Pressure,141,Female,62.05424162,,52,0.966202565
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,142,Female,89.50423186,,64,0.326604066
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,143,Female,66.51742406,,59,0.547523655
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,144,Male,68.96528492,,50,0.370790479
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,-1,Artist,0,1-2 Lakh,Open,0,Academic Struggles,145,Female,66.50497567,,50,0.356356445
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,3,Artist,0,1-2 Lakh,Open,0,Transportation and Access,146,Male,81.68792819,,50,0.133198253
+other,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,5,Journalist,3,More than 6 lakh,SC,0,Transportation and Access,147,Male,86.04065482,,61,0.648607901
+other,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,2,Journalist,3,More than 6 lakh,SC,0,Transportation and Access,148,Male,97.22048628,,65,0.552411121
+male,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,0,Police Officer,3,More than 6 lakh,ST,0,Transportation and Access,149,Female,78.288831,,65,0.146330876
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,0,Artist,0,1-2 Lakh,Open,0,Transportation and Access,150,Female,76.72279456,,50,0.350781818
+female,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,7,Social Worker,0,4-6 Lakh,SEBC,0,Lack of Interest or Engagement,151,Female,84.52801162,,52,0.917439297
+male,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,9,IT Professional,2,1-2 Lakh,SEBC,60,Early Employment,152,Male,95.93752611,,61,0.315605702
+male,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,6,Business Owner,3,More than 6 lakh,General,0,Peer Pressure,153,Female,78.27541737,,59,0.230405385
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,154,Male,76.72117519,,50,0.540507484
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,155,Male,53.31179889,,67,0.987085409
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,156,Female,70.72522921,,50,0.317849744
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,-1,Artist,0,1-2 Lakh,Open,0,Academic Struggles,157,Male,56.61381056,,52,0.704921993
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,3,Artist,0,1-2 Lakh,Open,0,Transportation and Access,158,Female,76.59287398,,62,0.785457654
+other,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,5,Journalist,3,More than 6 lakh,SC,0,Transportation and Access,159,Female,67.46934995,,50,0.31387379
+other,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,2,Journalist,3,More than 6 lakh,SC,0,Transportation and Access,160,Female,84.82507331,,57,0.755394714
+male,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,0,Police Officer,3,More than 6 lakh,ST,0,Transportation and Access,161,Female,98.72736326,,66,0.431004819
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,0,Artist,0,1-2 Lakh,Open,0,Transportation and Access,162,Male,65.80982911,,65,0.669075248
+female,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,8,Real Estate Agent,2,1-2 Lakh,Open,0,Transportation and Access,163,Male,92.32039247,,61,0.67017674
+male,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,8,Architect,2,2-4 Lakh,SEBC,0,Transportation and Access,164,Male,52.57979033,,50,0.582197216
+female,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,7,Social Worker,0,4-6 Lakh,SEBC,0,Lack of Interest or Engagement,165,Female,94.37302413,,62,0.181260793
+male,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,9,IT Professional,2,1-2 Lakh,SEBC,60,Early Employment,166,Male,99.26836561,,64,0.851772246
+male,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,6,Business Owner,3,More than 6 lakh,General,0,Peer Pressure,167,Female,54.42041117,,59,0.388702058
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,168,Female,55.24345833,,62,0.267866659
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,169,Male,69.64947245,,57,0.136697627
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,170,Male,79.92213506,,52,0.631803649
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,-1,Artist,0,1-2 Lakh,Open,0,Academic Struggles,171,Male,79.95146824,,55,0.709807926
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,3,Artist,0,1-2 Lakh,Open,0,Transportation and Access,172,Female,98.10493929,,64,0.114929046
+other,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,5,Journalist,3,More than 6 lakh,SC,0,Transportation and Access,173,Female,67.57700806,,62,0.560883752
+other,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,2,Journalist,3,More than 6 lakh,SC,0,Transportation and Access,174,Male,66.96356229,,61,0.303846198
+male,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,0,Police Officer,3,More than 6 lakh,ST,0,Transportation and Access,175,Female,77.86526844,,50,0.680655511
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,0,Artist,0,1-2 Lakh,Open,0,Transportation and Access,176,Male,80.39471969,,50,0.256929786
+female,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,7,Social Worker,0,4-6 Lakh,SEBC,0,Lack of Interest or Engagement,177,Female,72.85001096,,53,0.721843964
+male,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,9,IT Professional,2,1-2 Lakh,SEBC,60,Early Employment,178,Female,76.9890531,,65,0.448061812
+male,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,6,Business Owner,3,More than 6 lakh,General,0,Peer Pressure,179,Male,54.39340556,,50,0.94305699
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,180,Male,54.46021644,,51,0.22376885
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,181,Female,76.9890531,,65,0.406959716
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,182,Female,93.91103337,,65,0.202126169
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,-1,Artist,0,1-2 Lakh,Open,0,Academic Struggles,183,Female,78.98249672,,71,0.932224256
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,3,Artist,0,1-2 Lakh,Open,0,Transportation and Access,184,Female,58.10069389,,58,0.889605418
+other,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,5,Journalist,3,More than 6 lakh,SC,0,Transportation and Access,185,Male,86.20516646,,51,0.332147465
+other,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,2,Journalist,3,More than 6 lakh,SC,0,Transportation and Access,186,Female,78.98249672,,71,0.693985641
+male,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,0,Police Officer,3,More than 6 lakh,ST,0,Transportation and Access,187,Female,82.44114201,,62,0.83549998
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,0,Artist,0,1-2 Lakh,Open,0,Transportation and Access,188,Female,64.97979559,,50,0.59968073
+female,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,8,Real Estate Agent,2,1-2 Lakh,Open,0,Transportation and Access,189,Female,55.24345833,,62,0.576685521
+male,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,8,Architect,2,2-4 Lakh,SEBC,0,Transportation and Access,190,Female,86.79523066,,57,0.317667062
+female,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,7,Social Worker,0,4-6 Lakh,SEBC,0,Lack of Interest or Engagement,191,Male,79.86390411,,70,0.183792491
+male,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,9,IT Professional,2,1-2 Lakh,SEBC,60,Early Employment,192,Female,67.25960724,,64,0.907494182
+male,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,6,Business Owner,3,More than 6 lakh,General,0,Peer Pressure,193,Male,86.3060422,,65,0.910376251
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,194,Female,60.36138245,,63,0.669791312
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,195,Female,66.07913823,,60,0.405126812
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,196,Male,65.38886199,,67,0.414288617
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,-1,Artist,0,1-2 Lakh,Open,0,Academic Struggles,197,Female,95.15755293,,55,0.753360111
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,3,Artist,0,1-2 Lakh,Open,0,Transportation and Access,198,Male,79.64814526,,55,0.907399234
+other,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,5,Journalist,3,More than 6 lakh,SC,0,Transportation and Access,199,Female,61.36754915,,50,0.898377782
+other,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,2,Journalist,3,More than 6 lakh,SC,0,Transportation and Access,200,Female,62.57212198,,50,0.801887991
+male,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,0,Police Officer,3,More than 6 lakh,ST,0,Transportation and Access,201,Female,92.536373,,61,0.677828482
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,0,Artist,0,1-2 Lakh,Open,0,Transportation and Access,202,Male,61.79530173,,54,0.175725968
+female,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,8,Real Estate Agent,2,1-2 Lakh,Open,0,Transportation and Access,203,Male,85.80895374,,58,0.245465843
+male,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,8,Architect,2,2-4 Lakh,SEBC,0,Transportation and Access,204,Female,77.83607924,,61,0.90869877
+female,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,7,Social Worker,0,4-6 Lakh,SEBC,0,Lack of Interest or Engagement,205,Female,85.70295999,,60,0.645786154
+male,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,9,IT Professional,2,1-2 Lakh,SEBC,60,Early Employment,206,Female,98.77706578,,71,0.108277346
+male,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,6,Business Owner,3,More than 6 lakh,General,0,Peer Pressure,207,Male,76.75348595,,64,0.191324389
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,208,Male,86.8702603,,50,0.697151592
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,209,Female,71.33944527,,50,0.104555425
+female,Gujarat,Sabarkantha,Idar,Laloda,657b579a60bba63ffcd0f9c6,Rural,English,0,Nurse,2,4-6 Lakh,SEBC,0,Transportation and Access,210,Female,75.76180274,,56,0.244727246
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,-1,Artist,0,1-2 Lakh,Open,0,Academic Struggles,211,Male,86.3060422,,65,0.59386041
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,3,Artist,0,1-2 Lakh,Open,0,Transportation and Access,212,Female,54.61452931,,60,0.722705678
+other,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,5,Journalist,3,More than 6 lakh,SC,0,Transportation and Access,213,Female,91.82824066,,61,0.686765134
+other,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,2,Journalist,3,More than 6 lakh,SC,0,Transportation and Access,214,Female,51.59023407,,50,0.301842379
+male,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,0,Police Officer,3,More than 6 lakh,ST,0,Transportation and Access,215,Female,70.44775885,,57,0.740961299
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,0,Artist,0,1-2 Lakh,Open,0,Transportation and Access,216,Male,90.37151259,,53,0.313524179
+female,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,8,Real Estate Agent,2,1-2 Lakh,Open,0,Transportation and Access,217,Male,53.33095562,,50,0.392859728
+male,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,8,Architect,2,2-4 Lakh,SEBC,0,Transportation and Access,218,Female,93.93145577,,57,0.771842265
+other,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,5,Journalist,3,More than 6 lakh,SC,0,Family and Economic Factors,219,Female,81.83221608,,52,0.684669609
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,3,Artist,0,1-2 Lakh,Open,0,Family and Economic Factors,220,Male,84.56109288,,56,0.864301069
+other,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,2,Journalist,3,More than 6 lakh,SC,0,Family and Economic Factors,221,Female,63.18419013,,57,0.691851603
+male,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,0,Police Officer,3,More than 6 lakh,ST,0,Family and Economic Factors,222,Male,68.94107828,,50,0.611477743
+female,Gujarat,Sabarkantha,Idar,Gambhirpura,65809ef15602deb378740a73,Rural,Gujarati,0,Artist,0,1-2 Lakh,Open,0,Family and Economic Factors,223,Male,81.20507721,,60,0.184307291
+male,Gujarat,Anand,Umreth,Umreth,65809ef15602deb378740a73,Rural,Gujarati,5,Construction Worker,1,2-4 Lakh,ST,0,Family and Economic Factors,224,Male,89.38949444,,61,0.430944223
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Firefighter,3,2-4 Lakh,SEBC,0,Cultural or Language Barriers,225,Male,91.25536657,,59,0.338682131
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Firefighter,3,2-4 Lakh,SEBC,0,Repeating Grades,226,Male,90.25223338,,68,0.319590679
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Business Owner,3,4-6 Lakh,SEBC,0,Repeating Grades,227,Male,69.86590577,,54,0.975709499
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Biologist,2,4-6 Lakh,SEBC,0,Inadequate Support Systems,228,Female,84.68588037,,67,0.453787952
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Biologist,2,4-6 Lakh,SEBC,0,Transportation and Access,229,Male,95.53120018,,65,0.9028419
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Pilot,3,More than 6 lakh,SEBC,0,Transportation and Access,230,Male,74.05439742,,51,0.668024763
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Athlete,3,1-2 Lakh,General,0,Early Employment,231,Female,56.94123867,,59,0.815330173
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Athlete,3,1-2 Lakh,General,0,Peer Pressure,232,Female,95.86978065,,66,0.552373384
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,2-4 Lakh,General,0,Peer Pressure,233,Female,66.71814057,,58,0.619213496
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,7,Orthodontist,3,4-6 Lakh,General,0,School Environment,234,Female,84.94229266,,63,0.543265924
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,7,Orthodontist,3,4-6 Lakh,General,0,Health and Personal Issues,235,Male,64.70223396,,50,0.275718689
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,IT Professional,2,More than 6 lakh,General,0,Health and Personal Issues,236,Female,84.84807312,,68,0.750206904
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,SEBC,0,Family and Economic Factors,237,Female,99.8846308,,74,0.352695126
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,SEBC,0,Bullying and Social Issues,238,Male,84.58571986,,60,0.12188437
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Graphic Designer,3,More than 6 lakh,SEBC,0,Bullying and Social Issues,239,Female,95.63747314,,61,0.680925066
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Biologist,2,4-6 Lakh,SEBC,0,Transportation and Access,240,Female,61.66082058,,63,0.259399611
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Pilot,3,More than 6 lakh,SEBC,0,Transportation and Access,241,Male,76.75348595,,64,0.946412726
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Athlete,3,1-2 Lakh,General,0,Early Employment,242,Female,77.83607924,,61,0.958535719
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Athlete,3,1-2 Lakh,General,0,Peer Pressure,243,Female,91.82824066,,61,0.923377951
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,2-4 Lakh,General,0,Peer Pressure,244,Male,94.98337226,,57,0.43314283
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,7,Orthodontist,3,4-6 Lakh,General,0,School Environment,245,Male,55.83480321,,59,0.113910955
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,7,Orthodontist,3,4-6 Lakh,General,0,Health and Personal Issues,246,Male,79.41318785,,65,0.935486706
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,IT Professional,2,More than 6 lakh,General,0,Health and Personal Issues,247,Male,90.26574837,,64,0.485365733
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,SEBC,0,Family and Economic Factors,248,Female,87.8540601,,65,0.969989337
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,SEBC,0,Bullying and Social Issues,249,Male,79.86390411,,70,0.967257979
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Graphic Designer,3,More than 6 lakh,SEBC,0,Bullying and Social Issues,250,Female,76.49200116,,50,0.86770851
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,2,2-4 Lakh,SEBC,0,Lack of Interest or Engagement,251,Female,87.8540601,,65,0.365004003
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,2,2-4 Lakh,SEBC,0,Academic Struggles,252,Male,92.32039247,,61,0.446587956
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Librarian,2,1-2 Lakh,SEBC,0,Academic Struggles,253,Female,71.57640716,,52,0.866023004
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Interior Designer,1,More than 6 lakh,SC,0,Cultural or Language Barriers,254,Female,92.07648302,,65,0.385229805
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Carpenter,3,1-2 Lakh,ST,0,Cultural or Language Barriers,255,Male,66.87234169,,59,0.252543472
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Interior Designer,1,More than 6 lakh,SC,0,School Environment,256,Male,80.1978936,,52,0.601121136
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Carpenter,3,1-2 Lakh,ST,0,School Environment,257,Male,72.98407564,,54,0.942539297
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,General,0,School Environment,258,Female,59.22314357,,64,0.726426817
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Plumber,3,2-4 Lakh,General,0,Repeating Grades,259,Female,63.4336241,,50,0.613055053
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Police Officer,2,4-6 Lakh,General,10,Repeating Grades,260,Male,77.58612976,,66,0.187458844
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Lawyer,3,More than 6 lakh,General,10,Repeating Grades,261,Female,81.65490317,,50,0.653506504
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,2,2-4 Lakh,SEBC,0,Lack of Interest or Engagement,262,Male,74.00229835,,54,0.991048465
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,2,2-4 Lakh,SEBC,0,Academic Struggles,263,Male,52.58177389,,50,0.226075614
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Librarian,2,1-2 Lakh,SEBC,0,Academic Struggles,264,Female,87.9196207,,58,0.566496687
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Interior Designer,1,More than 6 lakh,SC,0,Cultural or Language Barriers,265,Male,61.26663989,,50,0.889635765
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Carpenter,3,1-2 Lakh,ST,0,Cultural or Language Barriers,266,Female,91.87453945,,65,0.766691756
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Interior Designer,1,More than 6 lakh,SC,0,School Environment,267,Female,88.56233343,,72,0.727314167
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Carpenter,3,1-2 Lakh,ST,0,School Environment,268,Female,81.86157899,,61,0.732235676
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,General,0,School Environment,269,Female,78.66471891,,55,0.423542036
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Plumber,3,2-4 Lakh,General,0,Repeating Grades,270,Male,71.02678893,,58,0.36423266
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Police Officer,2,4-6 Lakh,General,10,Repeating Grades,271,Female,60.36138245,,63,0.82842504
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Lawyer,3,More than 6 lakh,General,10,Repeating Grades,272,Female,77.79032907,,58,0.829102055
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,2,2-4 Lakh,SEBC,0,Lack of Interest or Engagement,273,Female,86.52745684,,53,0.880365087
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,2,2-4 Lakh,SEBC,0,Academic Struggles,274,Male,86.04065482,,61,0.921916497
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Librarian,2,1-2 Lakh,SEBC,0,Academic Struggles,275,Female,79.37268021,,61,0.560208159
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Interior Designer,1,More than 6 lakh,SC,0,Cultural or Language Barriers,276,Male,59.00336362,,50,0.551364665
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Carpenter,3,1-2 Lakh,ST,0,Cultural or Language Barriers,277,Male,94.87152049,,63,0.818465661
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Interior Designer,1,More than 6 lakh,SC,0,School Environment,278,Male,91.5685745,,52,0.684967538
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Carpenter,3,1-2 Lakh,ST,0,School Environment,279,Male,76.7667782,,57,0.73177019
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,General,0,School Environment,280,Female,70.12750218,,50,0.816213402
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Plumber,3,2-4 Lakh,General,0,Repeating Grades,281,Female,78.288831,,65,0.901004808
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Police Officer,2,4-6 Lakh,General,10,Repeating Grades,282,Male,95.52356392,,50,0.404195641
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Lawyer,3,More than 6 lakh,General,10,Repeating Grades,283,Female,87.66231104,,55,0.438024657
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Electrician,2,1-2 Lakh,SEBC,10,Inadequate Support Systems,284,Male,68.15296061,,60,0.184583746
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Firefighter,3,2-4 Lakh,SEBC,10,Inadequate Support Systems,285,Male,74.3178741,,50,0.620452127
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Firefighter,3,2-4 Lakh,SEBC,10,Family and Economic Factors,286,Female,84.68588037,,67,0.132348046
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Business Owner,3,4-6 Lakh,SEBC,10,Family and Economic Factors,287,Male,66.03210961,,50,0.519038216
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Electrician,2,1-2 Lakh,SEBC,10,Family and Economic Factors,288,Female,91.85394954,,67,0.588380171
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Biologist,2,4-6 Lakh,SEBC,0,Family and Economic Factors,289,Female,91.04307366,,50,0.357887127
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Pilot,3,More than 6 lakh,SEBC,0,Family and Economic Factors,290,Female,57.73360704,,52,0.631749935
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Athlete,3,1-2 Lakh,General,0,Family and Economic Factors,291,Female,76.32892333,,50,0.127450225
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,2-4 Lakh,General,0,Family and Economic Factors,292,Male,71.85966982,,62,0.13361337
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,7,Orthodontist,3,4-6 Lakh,General,0,Academic Struggles,293,Female,98.77706578,,71,0.840340505
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,IT Professional,2,More than 6 lakh,General,0,Academic Struggles,294,Female,85.70295999,,60,0.424171577
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,SEBC,0,Academic Struggles,295,Male,95.77568386,,69,0.214354461
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Graphic Designer,3,More than 6 lakh,SEBC,0,Academic Struggles,296,Male,63.49556112,,53,0.570018934
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Electrician,2,1-2 Lakh,SEBC,10,Inadequate Support Systems,297,Female,55.11063321,,50,0.792994198
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Firefighter,3,2-4 Lakh,SEBC,10,Inadequate Support Systems,298,Female,84.38923585,,50,0.294238925
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Firefighter,3,2-4 Lakh,SEBC,10,Family and Economic Factors,299,Female,84.94229266,,63,0.660601428
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Business Owner,3,4-6 Lakh,SEBC,10,Family and Economic Factors,300,Female,67.76812259,,56,0.176812718
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Electrician,2,1-2 Lakh,SEBC,10,Family and Economic Factors,301,Female,73.00595795,,60,0.146513549
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Biologist,2,4-6 Lakh,SEBC,0,Family and Economic Factors,302,Female,97.46533985,,50,0.578219168
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Pilot,3,More than 6 lakh,SEBC,0,Family and Economic Factors,303,Female,54.61452931,,60,0.586571609
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Athlete,3,1-2 Lakh,General,0,Family and Economic Factors,304,Female,52.34482339,,50,0.673686911
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,2-4 Lakh,General,0,Family and Economic Factors,305,Female,71.93723377,,59,0.7534822
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,7,Orthodontist,3,4-6 Lakh,General,0,Academic Struggles,306,Male,98.94657178,,50,0.978266872
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,IT Professional,2,More than 6 lakh,General,0,Academic Struggles,307,Female,68.86429826,,64,0.564670313
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,SEBC,0,Academic Struggles,308,Female,61.0048607,,50,0.390660826
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Graphic Designer,3,More than 6 lakh,SEBC,0,Academic Struggles,309,Male,84.22857739,,65,0.815667575
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Electrician,2,1-2 Lakh,SEBC,10,Inadequate Support Systems,310,Male,67.38096072,,65,0.343749026
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Firefighter,3,2-4 Lakh,SEBC,10,Inadequate Support Systems,311,Female,78.65754246,,60,0.495074279
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Firefighter,3,2-4 Lakh,SEBC,10,Family and Economic Factors,312,Male,66.96356229,,61,0.170610743
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Business Owner,3,4-6 Lakh,SEBC,10,Family and Economic Factors,313,Female,75.58285068,,63,0.122815669
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Electrician,2,1-2 Lakh,SEBC,10,Family and Economic Factors,314,Female,87.08434721,,60,0.966383573
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Biologist,2,4-6 Lakh,SEBC,0,Family and Economic Factors,315,Male,95.53430991,,60,0.852382108
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Pilot,3,More than 6 lakh,SEBC,0,Family and Economic Factors,316,Male,51.52360764,,64,0.726376785
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Athlete,3,1-2 Lakh,General,0,Family and Economic Factors,317,Female,72.9494494,,54,0.46805765
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,2-4 Lakh,General,0,Family and Economic Factors,318,Male,93.03160089,,77,0.255964888
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,7,Orthodontist,3,4-6 Lakh,General,0,Academic Struggles,319,Male,85.54762394,,64,0.240793338
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,IT Professional,2,More than 6 lakh,General,0,Academic Struggles,320,Male,59.21854603,,60,0.325218608
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,SEBC,0,Academic Struggles,321,Female,87.29872628,,72,0.594303998
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Graphic Designer,3,More than 6 lakh,SEBC,0,Academic Struggles,322,Female,98.39868827,,67,0.74313633
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Electrician,2,1-2 Lakh,SEBC,10,Inadequate Support Systems,323,Male,65.38886199,,67,0.694177639
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Firefighter,3,2-4 Lakh,SEBC,10,Inadequate Support Systems,324,Female,76.8295323,,68,0.351940507
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Firefighter,3,2-4 Lakh,SEBC,10,Family and Economic Factors,325,Male,90.25223338,,68,0.959378753
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Business Owner,3,4-6 Lakh,SEBC,10,Family and Economic Factors,326,Female,82.56836055,,54,0.764107225
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Electrician,2,1-2 Lakh,SEBC,10,Family and Economic Factors,327,Female,93.36074905,,66,0.598918647
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Biologist,2,4-6 Lakh,SEBC,0,Family and Economic Factors,328,Female,70.21907508,,50,0.650548672
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Pilot,3,More than 6 lakh,SEBC,0,Family and Economic Factors,329,Male,97.76181564,,59,0.477640056
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Athlete,3,1-2 Lakh,General,0,Family and Economic Factors,330,Male,68.88629737,,65,0.322957891
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,2-4 Lakh,General,0,Family and Economic Factors,331,Male,88.92859695,,61,0.420375411
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,7,Orthodontist,3,4-6 Lakh,General,0,Academic Struggles,332,Male,77.74078043,,56,0.782061499
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,IT Professional,2,More than 6 lakh,General,0,Academic Struggles,333,Female,53.17559148,,50,0.11295414
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,SEBC,0,Academic Struggles,334,Female,72.54552237,,50,0.204465376
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Graphic Designer,3,More than 6 lakh,SEBC,0,Academic Struggles,335,Female,75.58285068,,63,0.141402378
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,2,2-4 Lakh,SEBC,0,Transportation and Access,336,Female,53.79667052,,50,0.136655922
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Librarian,2,1-2 Lakh,SEBC,0,Transportation and Access,337,Male,68.26784098,,63,0.869914526
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Journalist,3,2-4 Lakh,SEBC,0,Transportation and Access,338,Female,90.03748857,,67,0.733292073
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Early Employment,339,Female,58.27566587,,54,0.526756446
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Electrician,3,2-4 Lakh,SC,0,Early Employment,340,Male,50.13554497,,50,0.188050745
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,4-6 Lakh,SC,0,Early Employment,341,Male,88.26781405,,67,0.542454288
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Bullying and Social Issues,342,Female,96.20208796,,67,0.526124594
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Electrician,3,2-4 Lakh,SC,0,Bullying and Social Issues,343,Female,67.14634321,,50,0.255881683
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,4-6 Lakh,SC,0,Bullying and Social Issues,344,Male,90.29324434,,56,0.490466484
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Fitness Instructor,3,4-6 Lakh,SC,0,Bullying and Social Issues,345,Male,99.86277674,,64,0.458654261
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,2,2-4 Lakh,SEBC,0,Transportation and Access,346,Female,80.8631856,,65,0.654265088
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Librarian,2,1-2 Lakh,SEBC,0,Transportation and Access,347,Male,99.86277674,,64,0.671584286
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Journalist,3,2-4 Lakh,SEBC,0,Transportation and Access,348,Female,53.44607697,,50,0.140773609
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Early Employment,349,Female,87.21248259,,65,0.437151353
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Electrician,3,2-4 Lakh,SC,0,Early Employment,350,Male,68.15296061,,60,0.663273924
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,4-6 Lakh,SC,0,Early Employment,351,Female,54.61452931,,60,0.552822633
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Bullying and Social Issues,352,Female,95.92273625,,64,0.870840857
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Electrician,3,2-4 Lakh,SC,0,Bullying and Social Issues,353,Male,64.39648082,,50,0.692824268
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,4-6 Lakh,SC,0,Bullying and Social Issues,354,Female,72.59743006,,58,0.246640984
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Fitness Instructor,3,4-6 Lakh,SC,0,Bullying and Social Issues,355,Male,68.15296061,,60,0.163511873
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,2,2-4 Lakh,SEBC,0,Transportation and Access,356,Male,94.98236986,,71,0.67817735
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Librarian,2,1-2 Lakh,SEBC,0,Transportation and Access,357,Male,59.97534637,,59,0.123860179
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Journalist,3,2-4 Lakh,SEBC,0,Transportation and Access,358,Female,67.57700806,,62,0.627198023
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Early Employment,359,Male,81.20507721,,60,0.946207217
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Electrician,3,2-4 Lakh,SC,0,Early Employment,360,Male,99.02884001,,64,0.61792676
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,4-6 Lakh,SC,0,Early Employment,361,Female,50.37671816,,50,0.449352934
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Bullying and Social Issues,362,Male,87.73176459,,69,0.678959397
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Electrician,3,2-4 Lakh,SC,0,Bullying and Social Issues,363,Female,55.713365,,50,0.512427601
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,4-6 Lakh,SC,0,Bullying and Social Issues,364,Female,99.4364391,,68,0.59105511
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Fitness Instructor,3,4-6 Lakh,SC,0,Bullying and Social Issues,365,Male,80.37776111,,69,0.947318328
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,2,2-4 Lakh,SEBC,0,Transportation and Access,366,Female,70.2624044,,62,0.447492374
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Librarian,2,1-2 Lakh,SEBC,0,Transportation and Access,367,Male,68.8369485,,50,0.965071507
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Journalist,3,2-4 Lakh,SEBC,0,Transportation and Access,368,Female,82.25270839,,76,0.914815578
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Early Employment,369,Female,84.88209357,,67,0.276212021
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Electrician,3,2-4 Lakh,SC,0,Early Employment,370,Female,73.81053484,,50,0.162425171
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,4-6 Lakh,SC,0,Early Employment,371,Female,93.053401,,61,0.190700201
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Bullying and Social Issues,372,Female,92.22203363,,64,0.116399643
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Electrician,3,2-4 Lakh,SC,0,Bullying and Social Issues,373,Female,54.39438123,,53,0.184998665
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,4-6 Lakh,SC,0,Bullying and Social Issues,374,Male,98.75335815,,71,0.714706096
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Fitness Instructor,3,4-6 Lakh,SC,0,Bullying and Social Issues,375,Male,84.14910317,,63,0.164069784
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Interior Designer,1,More than 6 lakh,SC,0,Lack of Interest or Engagement,376,Female,56.65584643,,57,0.387078067
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Carpenter,3,1-2 Lakh,ST,0,Lack of Interest or Engagement,377,Male,74.69907436,,53,0.86038778
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Taxi Driver,3,2-4 Lakh,ST,0,Cultural or Language Barriers,378,Female,67.07816052,,50,0.120944742
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Pharmacist,3,4-6 Lakh,ST,0,Cultural or Language Barriers,379,Male,84.14910317,,63,0.833021634
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Business Owner,2,More than 6 lakh,ST,0,Repeating Grades,380,Female,76.06503337,,54,0.353669297
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Event Planner,1,1-2 Lakh,General,0,Repeating Grades,381,Male,87.07304556,,58,0.206348345
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Business Owner,2,More than 6 lakh,ST,0,Inadequate Support Systems,382,Female,74.77118132,,50,0.727063449
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Event Planner,1,1-2 Lakh,General,0,Inadequate Support Systems,383,Female,57.84888414,,50,0.666048562
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,General,0,Inadequate Support Systems,384,Female,76.48308393,,63,0.889724812
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Plumber,3,2-4 Lakh,General,0,Inadequate Support Systems,385,Female,50.26269093,,51,0.761563939
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Interior Designer,1,More than 6 lakh,SC,0,Lack of Interest or Engagement,386,Male,71.85966982,,62,0.823132837
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Carpenter,3,1-2 Lakh,ST,0,Lack of Interest or Engagement,387,Male,52.20827189,,52,0.353831115
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Taxi Driver,3,2-4 Lakh,ST,0,Cultural or Language Barriers,388,Male,71.85966982,,62,0.259695589
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Pharmacist,3,4-6 Lakh,ST,0,Cultural or Language Barriers,389,Female,87.99777045,,55,0.775553276
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Business Owner,2,More than 6 lakh,ST,0,Repeating Grades,390,Male,89.02478538,,56,0.826151265
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Event Planner,1,1-2 Lakh,General,0,Repeating Grades,391,Female,87.95179228,,64,0.991454628
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Business Owner,2,More than 6 lakh,ST,0,Inadequate Support Systems,392,Female,55.24345833,,62,0.471355909
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Event Planner,1,1-2 Lakh,General,0,Inadequate Support Systems,393,Male,94.71086314,,50,0.434816277
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,General,0,Inadequate Support Systems,394,Male,53.86605327,,53,0.798771665
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Plumber,3,2-4 Lakh,General,0,Inadequate Support Systems,395,Female,66.07913823,,60,0.406723186
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Interior Designer,1,More than 6 lakh,SC,0,Lack of Interest or Engagement,396,Male,71.85966982,,62,0.937681593
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Carpenter,3,1-2 Lakh,ST,0,Lack of Interest or Engagement,397,Female,94.83051315,,50,0.872571477
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Taxi Driver,3,2-4 Lakh,ST,0,Cultural or Language Barriers,398,Female,87.8540601,,65,0.486094625
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Pharmacist,3,4-6 Lakh,ST,0,Cultural or Language Barriers,399,Female,93.91103337,,65,0.775783961
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Business Owner,2,More than 6 lakh,ST,0,Repeating Grades,400,Male,70.63967753,,55,0.779088587
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Event Planner,1,1-2 Lakh,General,0,Repeating Grades,401,Female,53.41248527,,50,0.192811482
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Business Owner,2,More than 6 lakh,ST,0,Inadequate Support Systems,402,Female,57.05409244,,50,0.912297616
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Event Planner,1,1-2 Lakh,General,0,Inadequate Support Systems,403,Male,95.02861506,,50,0.554727135
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,General,0,Inadequate Support Systems,404,Male,85.70320411,,53,0.843811719
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Plumber,3,2-4 Lakh,General,0,Inadequate Support Systems,405,Male,84.22857739,,65,0.388044641
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Police Officer,2,4-6 Lakh,General,0,Transportation and Access,406,Male,51.71140554,,50,0.905970906
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Police Officer,2,4-6 Lakh,General,0,Transportation and Access,407,Female,87.95179228,,64,0.450281511
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Lawyer,3,More than 6 lakh,General,0,Transportation and Access,408,Female,88.56233343,,72,0.109753886
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Firefighter,3,2-4 Lakh,SEBC,0,Early Employment,409,Male,95.77568386,,69,0.914843779
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Electrician,2,1-2 Lakh,SEBC,0,Early Employment,410,Male,91.92912794,,73,0.182158009
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Business Owner,3,4-6 Lakh,SEBC,0,Early Employment,411,Female,60.97552625,,50,0.387382274
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Biologist,2,4-6 Lakh,SEBC,0,Peer Pressure,412,Male,60.45653955,,59,0.95505577
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Pilot,3,More than 6 lakh,SEBC,0,Peer Pressure,413,Male,80.37776111,,69,0.955546432
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Biologist,2,4-6 Lakh,SEBC,0,Academic Struggles,414,Male,75.11441737,,50,0.616094099
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Pilot,3,More than 6 lakh,SEBC,0,Academic Struggles,415,Male,59.31604397,,50,0.668653491
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,7,Orthodontist,3,4-6 Lakh,General,0,Academic Struggles,416,Female,60.2500905,,51,0.50360097
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,IT Professional,2,More than 6 lakh,General,0,Academic Struggles,417,Female,82.33324596,,50,0.363889695
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Police Officer,2,4-6 Lakh,General,0,Transportation and Access,418,Female,58.336538,,50,0.395798091
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Police Officer,2,4-6 Lakh,General,0,Transportation and Access,419,Female,79.75244899,,59,0.70526661
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Lawyer,3,More than 6 lakh,General,0,Transportation and Access,420,Female,89.07572409,,62,0.777137076
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Firefighter,3,2-4 Lakh,SEBC,0,Early Employment,421,Female,88.54556885,,61,0.812421139
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Electrician,2,1-2 Lakh,SEBC,0,Early Employment,422,Male,81.04028422,,69,0.810656329
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Business Owner,3,4-6 Lakh,SEBC,0,Early Employment,423,Female,56.14053909,,50,0.182085493
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Biologist,2,4-6 Lakh,SEBC,0,Peer Pressure,424,Male,67.2191866,,57,0.544978274
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Pilot,3,More than 6 lakh,SEBC,0,Peer Pressure,425,Male,99.54647382,,67,0.151802884
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Biologist,2,4-6 Lakh,SEBC,0,Academic Struggles,426,Male,97.22048628,,65,0.594575994
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Pilot,3,More than 6 lakh,SEBC,0,Academic Struggles,427,Male,86.84112377,,57,0.497377451
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,7,Orthodontist,3,4-6 Lakh,General,0,Academic Struggles,428,Male,89.59089197,,50,0.898933764
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,IT Professional,2,More than 6 lakh,General,0,Academic Struggles,429,Female,93.053401,,61,0.415823511
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Police Officer,2,4-6 Lakh,General,0,Transportation and Access,430,Female,91.85394954,,67,0.205360315
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Police Officer,2,4-6 Lakh,General,0,Transportation and Access,431,Female,95.86978065,,66,0.228692514
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Lawyer,3,More than 6 lakh,General,0,Transportation and Access,432,Male,74.85059744,,50,0.785359569
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Firefighter,3,2-4 Lakh,SEBC,0,Early Employment,433,Male,98.75335815,,71,0.656396257
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Electrician,2,1-2 Lakh,SEBC,0,Early Employment,434,Male,78.1982546,,57,0.191010409
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Business Owner,3,4-6 Lakh,SEBC,0,Early Employment,435,Female,73.00595795,,60,0.175696126
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Biologist,2,4-6 Lakh,SEBC,0,Peer Pressure,436,Female,73.28500612,,55,0.730872218
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Pilot,3,More than 6 lakh,SEBC,0,Peer Pressure,437,Male,74.91238489,,61,0.165486706
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Biologist,2,4-6 Lakh,SEBC,0,Academic Struggles,438,Female,91.1291938,,50,0.839674053
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Pilot,3,More than 6 lakh,SEBC,0,Academic Struggles,439,Female,61.1924533,,53,0.735618004
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,7,Orthodontist,3,4-6 Lakh,General,0,Academic Struggles,440,Female,91.39704436,,73,0.173213903
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,IT Professional,2,More than 6 lakh,General,0,Academic Struggles,441,Male,81.20507721,,60,0.176353943
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,SEBC,0,Family and Economic Factors,442,Female,96.14801159,,65,0.987975621
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Graphic Designer,3,More than 6 lakh,SEBC,0,Family and Economic Factors,443,Female,74.90825933,,68,0.436843716
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Athlete,3,1-2 Lakh,General,0,Family and Economic Factors,444,Male,95.93752611,,61,0.433577932
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,2-4 Lakh,General,0,Family and Economic Factors,445,Male,89.50067794,,52,0.831519611
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,SEBC,0,Family and Economic Factors,446,Female,79.37268021,,61,0.95252372
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Graphic Designer,3,More than 6 lakh,SEBC,0,Family and Economic Factors,447,Male,88.38897507,,59,0.987400957
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,2,2-4 Lakh,SEBC,0,Bullying and Social Issues,448,Male,74.8732447,,60,0.778040367
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Librarian,2,1-2 Lakh,SEBC,0,Bullying and Social Issues,449,Female,54.61452931,,60,0.438633627
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Early Employment,450,Male,88.98793874,,64,0.175150645
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Journalist,3,2-4 Lakh,SEBC,0,Early Employment,451,Female,68.86429826,,64,0.799432224
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Electrician,3,2-4 Lakh,SC,0,Early Employment,452,Female,77.83607924,,61,0.602563825
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,4-6 Lakh,SC,0,Early Employment,453,Male,95.53430991,,60,0.481799808
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,SEBC,0,Family and Economic Factors,454,Female,74.0572697,,50,0.915718947
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Graphic Designer,3,More than 6 lakh,SEBC,0,Family and Economic Factors,455,Female,98.72736326,,66,0.200077734
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Athlete,3,1-2 Lakh,General,0,Family and Economic Factors,456,Female,99.8846308,,74,0.543362594
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,2-4 Lakh,General,0,Family and Economic Factors,457,Female,93.71588024,,55,0.11021828
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,SEBC,0,Family and Economic Factors,458,Female,89.07572409,,62,0.521794578
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Graphic Designer,3,More than 6 lakh,SEBC,0,Family and Economic Factors,459,Male,79.91430291,,50,0.150672948
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,2,2-4 Lakh,SEBC,0,Bullying and Social Issues,460,Male,51.64233351,,50,0.206936125
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Librarian,2,1-2 Lakh,SEBC,0,Bullying and Social Issues,461,Male,74.39049004,,59,0.205773622
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Early Employment,462,Female,79.2383053,,57,0.684289272
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Journalist,3,2-4 Lakh,SEBC,0,Early Employment,463,Male,89.2334132,,50,0.771440391
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Electrician,3,2-4 Lakh,SC,0,Early Employment,464,Female,85.24627748,,52,0.625031889
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,4-6 Lakh,SC,0,Early Employment,465,Female,92.536373,,61,0.965955294
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Journalist,3,2-4 Lakh,SEBC,0,Cultural or Language Barriers,466,Female,86.3047793,,51,0.437383522
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Zookeeper,3,1-2 Lakh,SC,0,Cultural or Language Barriers,467,Male,69.57410551,,53,0.357140878
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Electrician,3,2-4 Lakh,SC,0,Cultural or Language Barriers,468,Female,84.68588037,,67,0.881739215
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,4-6 Lakh,SC,0,Cultural or Language Barriers,469,Female,91.53272533,,64,0.301236255
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Interior Designer,1,More than 6 lakh,SC,0,Cultural or Language Barriers,470,Female,88.56233343,,72,0.966900285
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Fitness Instructor,3,4-6 Lakh,SC,0,Cultural or Language Barriers,471,Male,55.32893651,,52,0.110939027
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Taxi Driver,3,2-4 Lakh,ST,0,Repeating Grades,472,Female,68.13789473,,54,0.972890944
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Carpenter,3,1-2 Lakh,ST,0,Repeating Grades,473,Male,60.90115537,,50,0.138843921
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Pharmacist,3,4-6 Lakh,ST,0,Inadequate Support Systems,474,Female,73.00595795,,60,0.902028802
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Taxi Driver,3,2-4 Lakh,ST,0,Inadequate Support Systems,475,Female,59.10535694,,50,0.574930998
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Carpenter,3,1-2 Lakh,ST,0,Inadequate Support Systems,476,Female,85.70295999,,60,0.993668317
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Business Owner,2,More than 6 lakh,ST,0,Inadequate Support Systems,477,Female,86.07982754,,72,0.166416908
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Event Planner,1,1-2 Lakh,General,0,Transportation and Access,478,Female,86.31985163,,55,0.598468856
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,General,0,Transportation and Access,479,Male,53.77516819,,50,0.972372282
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Plumber,3,2-4 Lakh,General,0,Transportation and Access,480,Male,99.26836561,,64,0.57078806
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,General,0,School Environment,481,Female,74.1877471,,69,0.666458774
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,6,Event Planner,1,1-2 Lakh,General,0,School Environment,482,Female,87.84995661,,58,0.72617382
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Plumber,3,2-4 Lakh,General,0,School Environment,483,Female,83.49587323,,71,0.509086958
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Police Officer,2,4-6 Lakh,General,0,School Environment,484,Male,86.04065482,,61,0.664802272
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Lawyer,3,More than 6 lakh,General,20,School Environment,485,Female,96.68459119,,53,0.625882881
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Electrician,2,1-2 Lakh,SEBC,20,School Environment,486,Female,56.95580971,,50,0.911042209
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Firefighter,3,2-4 Lakh,SEBC,20,Health and Personal Issues,487,Female,74.90453768,,50,0.140901742
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Business Owner,3,4-6 Lakh,SEBC,20,Health and Personal Issues,488,Male,72.9673404,,54,0.352866871
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Firefighter,3,2-4 Lakh,SEBC,20,Family and Economic Factors,489,Male,70.39922477,,50,0.955370336
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,8,Business Owner,3,4-6 Lakh,SEBC,20,Family and Economic Factors,490,Female,78.65754246,,60,0.901237406
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Pilot,3,More than 6 lakh,SEBC,0,Family and Economic Factors,491,Female,91.82824066,,61,0.510091078
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Biologist,2,4-6 Lakh,SEBC,20,Family and Economic Factors,492,Male,51.52360764,,64,0.658119338
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Athlete,3,1-2 Lakh,General,0,Bullying and Social Issues,493,Female,87.29872628,,72,0.349643065
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Writer,3,2-4 Lakh,General,0,Family and Economic Factors,494,Female,67.25413139,,50,0.269309044
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,7,Orthodontist,3,4-6 Lakh,General,0,Academic Struggles,495,Male,79.86390411,,70,0.517328564
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,IT Professional,2,More than 6 lakh,General,0,Academic Struggles,496,Male,52.4047322,,50,0.418017005
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,7,Orthodontist,3,4-6 Lakh,General,0,Lack of Interest or Engagement,497,Female,75.75868412,,50,0.625290501
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,IT Professional,2,More than 6 lakh,General,0,Lack of Interest or Engagement,498,Male,78.79992089,,61,0.169961173
+male,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Chef,3,1-2 Lakh,SEBC,0,Lack of Interest or Engagement,499,Female,56.13884448,,50,0.976955327
+female,Gujarat,Rajkot,Gondal,Moviya,6580224900270b10031c1ee7,Rural,Gujarati,5,Graphic Designer,3,More than 6 lakh,SEBC,0,Lack of Interest or Engagement,500,Female,91.82824066,,61,0.98758967
