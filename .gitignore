@@ -13,3 +13,7 @@ node_modules/
 *.env
 
 migrations/
+
+db.sqlite3
+ML/
+myapp/
