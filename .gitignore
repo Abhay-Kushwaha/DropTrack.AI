@@ -14,6 +14,6 @@ node_modules/
 
 migrations/
 
+db.sqlite3
 ML/
 myapp/
-db.sqlite3
