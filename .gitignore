@@ -1,0 +1,15 @@
+.vscode/
+sih25_vir/
+.env/
+__pycache__/
+
+mongo_drf_test_pro/
+node_modules/
+*.pyc
+.DS_Store
+.idea/
+*.sqlite3
+*.log
+*.env
+
+migrations/
