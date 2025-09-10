@@ -18,6 +18,7 @@ const CounsellingSchema = new mongoose.Schema(
                     parentPhone: { type: String, required: true },
                     parentEmail: { type: String, required: true },
                 },
+                issue: { type: String },
                 Mentor: {
                     type: String, // mentor email
                     required: true,
