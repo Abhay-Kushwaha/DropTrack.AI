@@ -6,7 +6,7 @@ const Addreasons = () => {
     const formik = useFormik({
         initialValues: {
             reason: '',
-            subReasons: [''], // Assuming there is at least one sub-reason
+            subReasons: [''],
         },
         validationSchema: Yup.object({
             reason: Yup.string().required('Reason is required'),
@@ -14,118 +14,105 @@ const Addreasons = () => {
         }),
         onSubmit: (values, action) => {
             console.log(values);
-            var myHeaders = new Headers();
-            myHeaders.append("Content-Type", "application/json");
-
-            var raw = JSON.stringify({
-                "reason": values.reason,
-                "category": values.subReasons
-            });
-
-            var requestOptions = {
+            fetch("http://localhost:3000/addReason", {
                 method: 'POST',
-                headers: myHeaders,
-                body: raw,
-                redirect: 'follow'
-            };
-
-            fetch("http://localhost:3000/addReason", requestOptions)
-                .then(response => response.text())
-                .then(result => { action.resetForm(); })
-                .catch(error => console.log('error', error));
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ reason: values.reason, category: values.subReasons }),
+            })
+                .then(res => res.text())
+                .then(() => action.resetForm())
+                .catch(err => console.log('error', err));
         },
     });
 
-    const addLink = () => {
+    const addSubReason = () => {
         formik.setFieldValue('subReasons', [...formik.values.subReasons, '']);
     };
 
-    const removeLink = (index) => {
-        const updatedSubReasons = [...formik.values.subReasons];
-        updatedSubReasons.splice(index, 1);
-        formik.setFieldValue('subReasons', updatedSubReasons);
+    const removeSubReason = (index) => {
+        const updated = [...formik.values.subReasons];
+        updated.splice(index, 1);
+        formik.setFieldValue('subReasons', updated);
     };
 
     return (
-        <>
-            <div className="bg-[#f8f9fa] m-5 h-screen ">
-                <div className="w-3/5 mx-auto mt-8 p-4 bg-gray-100 rounded shadow-md shadow-gray-600">
-                    <h2 className="text-2xl font-semibold mb-5 text-center ">
-                        Add Reasons
-                    </h2>
-                    <form onSubmit={formik.handleSubmit}>
-                        <div className="mx-5">
-                            <div>
-                                <label className="font-semibold text-gray-500">
-                                    Add Reason :
-                                </label>
-                                <div>
-                                    <input
-                                        type="text"
-                                        name="reason"
-                                        onChange={formik.handleChange}
-                                        onBlur={formik.handleBlur}
-                                        value={formik.values.reason}
-                                        placeholder='Enter Reason'
-                                        className="mt-1 p-1.5 w-2/3 border border-gray-500 rounded-md  focus:outline-2 focus:outline-gray-400"
-                                    />
-                                </div>
-                            </div>
-                            {formik.touched.reason && formik.errors.reason ? (
-                                <div className="text-red-500">{formik.errors.reason}</div>
-                            ) : null}
-                        </div>
+        <div className="bg-gray-50 min-h-screen py-10">
+            <div className="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-lg">
+                <h2 className="text-3xl font-bold text-center text-orange-600 mb-8">
+                    Add Reasons
+                </h2>
 
-                        <div className="mx-5 mt-3">
-                            <label className="font-semibold text-gray-500">
-                                Enter Sub-reason :
-                            </label>
-                            {formik.values.subReasons.map((subReason, index) => (
-                                <div key={index} className="flex space-x-2 m-1">
-                                    <input
-                                        type="text"
-                                        placeholder="Enter Sub-reasons"
-                                        name={`subReasons.${index}`}
-                                        onChange={formik.handleChange}
-                                        onBlur={formik.handleBlur}
-                                        value={formik.values.subReasons[index]}
-                                        className="mt-1 p-1.5 w-2/3 border border-gray-500 rounded-md  focus:outline-2 focus:outline-gray-400"
-                                    />
+                <form onSubmit={formik.handleSubmit} className="space-y-6">
+                    {/* Reason Input */}
+                    <div>
+                        <label className="block text-gray-700 font-semibold mb-2">
+                            Reason
+                        </label>
+                        <input
+                            type="text"
+                            name="reason"
+                            placeholder="Enter Reason"
+                            onChange={formik.handleChange}
+                            onBlur={formik.handleBlur}
+                            value={formik.values.reason}
+                            className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400"
+                        />
+                        {formik.touched.reason && formik.errors.reason && (
+                            <p className="text-red-500 mt-1 text-sm">{formik.errors.reason}</p>
+                        )}
+                    </div>
+
+                    {/* Sub-reasons */}
+                    <div>
+                        <label className="block text-gray-700 font-semibold mb-2">
+                            Sub-reasons
+                        </label>
+                        {formik.values.subReasons.map((sub, index) => (
+                            <div key={index} className="flex flex-wrap items-center gap-2 mb-3">
+                                <input
+                                    type="text"
+                                    name={`subReasons.${index}`}
+                                    placeholder="Enter Sub-reason"
+                                    value={formik.values.subReasons[index]}
+                                    onChange={formik.handleChange}
+                                    onBlur={formik.handleBlur}
+                                    className="flex-1 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400"
+                                />
+                                <button
+                                    type="button"
+                                    onClick={addSubReason}
+                                    className="bg-green-500 hover:bg-green-600 text-white font-semibold px-4 py-2 rounded-lg transition-colors"
+                                >
+                                    + Add
+                                </button>
+                                {index > 0 && (
                                     <button
                                         type="button"
-                                        className="mx-5 bg-gradient-to-r from-orange-500 to-amber-500 text-white font-bold tracking-wider py-1 px-5 rounded-md hover:bg-orange-600 transition-colors duration-300"
-                                        onClick={() => addLink()}
+                                        onClick={() => removeSubReason(index)}
+                                        className="bg-red-500 hover:bg-red-600 text-white font-semibold px-4 py-2 rounded-lg transition-colors"
                                     >
-                                        Add
+                                        Remove
                                     </button>
-                                    {index > 0 && (
-                                        <button
-                                            type="button"
-                                            className="mx-5 bg-red-700 text-white font-bold tracking-wider py-1 px-5 rounded-md hover:bg-red-600 transition-colors duration-300"
-                                            onClick={() => removeLink(index)}
-                                        >
-                                            Remove
-                                        </button>
-                                    )}
-                                </div>
-                            ))}
-                            {formik.touched.subReasons && formik.errors.subReasons ? (
-                                <div className="text-red-500">{formik.errors.subReasons}</div>
-                            ) : null}
-                        </div>
+                                )}
+                            </div>
+                        ))}
+                        {formik.touched.subReasons && formik.errors.subReasons && (
+                            <p className="text-red-500 mt-1 text-sm">{formik.errors.subReasons}</p>
+                        )}
+                    </div>
 
-                        <div className="flex items-center justify-center my-5">
-                            <button
-                                type="submit"
-                                className="mx-5 bg-gradient-to-r from-orange-500 to-amber-500 text-white font-bold tracking-wider py-3 px-5 rounded-md hover:bg-orange-600 uppercase transition-colors duration-300"
-                            >
-                                Submit
-                            </button>
-                        </div>
-                    </form>
-                </div>
+                    {/* Submit Button */}
+                    <div className="text-center">
+                        <button
+                            type="submit"
+                            className="bg-gradient-to-r from-orange-500 to-amber-500 text-white font-bold px-8 py-3 rounded-lg hover:from-orange-600 hover:to-amber-600 transition-all uppercase tracking-wide"
+                        >
+                            Submit
+                        </button>
+                    </div>
+                </form>
             </div>
-        </>
+        </div>
     );
 };
 

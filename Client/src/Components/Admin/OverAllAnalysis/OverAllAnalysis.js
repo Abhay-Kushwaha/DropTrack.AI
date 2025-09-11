@@ -7,13 +7,14 @@ import StandardwiseDropoutAnalysis from "./StandardwiseDropoutAnalysis";
 import GenderwiseDropoutAnalysis from "./GenderwiseDropoutAnalysis";
 import ReasonwiseDropoutAnalysis from "./ReasonwiseDropoutAnalysis";
 import CastewiseDropoutAnalysis from "./CastewiseDropoutAnalysis";
-import DisablitywiseDropoutAnalysis from "./DisablitywiseDropoutAnalysis";
+// import DisablitywiseDropoutAnalysis from "./DisablitywiseDropoutAnalysis";
 import FamilyIncomewiseDropoutAnalysis from "./IncomewiseDropoutAnalysis";
 import ReasonwiseGenderDropoutAnalysis from "./ReasonwiseGenderDropoutAnalysis";
 import YearwiseGenderAnalysis from "./YearwiseGenderAnalysis";
 import MediumwiseDropoutAnalysis from "./MediumwiseDropoutAnalysis";
 import AreawiseDropoutAnalysis from "./AreawiseDropoutAnalysis";
-import ParentOccupationwiseDropoutAnalysis from "./ParentOccupationwiseDropoutAnalysis";
+// import ParentOccupationwiseDropoutAnalysis from "./ParentOccupationwiseDropoutAnalysis";
+import AcademicsWiseAnalysis from "../Analysis/AcademicsWiseAnalysis";
 const Analysis = () => {
     const [stateName, setStateName] = useState([]);
     const [TalukaName, setTalukaName] = useState([]);
@@ -120,6 +121,7 @@ const Analysis = () => {
                         </select>
                     </label>
                 </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <StandardwiseDropoutAnalysis
                     selectedCity={selectedCity}
                     selectedTaluka={selectedTaluka}
@@ -144,24 +146,19 @@ const Analysis = () => {
                     selectedDistrict={selectedDistrict}
                     selectedState={selectedState}
                 />
-                <DisablitywiseDropoutAnalysis
+                {/* <DisablitywiseDropoutAnalysis
                     selectedCity={selectedCity}
                     selectedTaluka={selectedTaluka}
                     selectedDistrict={selectedDistrict}
                     selectedState={selectedState}
-                />
+                /> */}
                 <FamilyIncomewiseDropoutAnalysis
                     selectedCity={selectedCity}
                     selectedTaluka={selectedTaluka}
                     selectedDistrict={selectedDistrict}
                     selectedState={selectedState}
                 />
-                <ReasonwiseGenderDropoutAnalysis
-                    selectedCity={selectedCity}
-                    selectedTaluka={selectedTaluka}
-                    selectedDistrict={selectedDistrict}
-                    selectedState={selectedState}
-                />
+               
                 <YearwiseGenderAnalysis
                     selectedCity={selectedCity}
                     selectedTaluka={selectedTaluka}
@@ -180,12 +177,20 @@ const Analysis = () => {
                     selectedDistrict={selectedDistrict}
                     selectedState={selectedState}
                 />
-                <ParentOccupationwiseDropoutAnalysis
+                {/* <ParentOccupationwiseDropoutAnalysis
                     selectedCity={selectedCity}
                     selectedTaluka={selectedTaluka}
                     selectedDistrict={selectedDistrict}
                     selectedState={selectedState}
-                />
+                /> */}
+                 <AcademicsWiseAnalysis
+          selectedCity={selectedCity}
+          selectedTaluka={selectedTaluka}
+          selectedDistrict={selectedDistrict}
+          selectedState={selectedState}
+        />
+                
+                </div>
             </div>
         </>
     );

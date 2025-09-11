@@ -7,13 +7,14 @@ import StandardwiseDropoutAnalysis from "../../Admin/OverAllAnalysis/Standardwis
 import GenderwiseDropoutAnalysis from "../../Admin/OverAllAnalysis/GenderwiseDropoutAnalysis";
 import ReasonwiseDropoutAnalysis from "../../Admin/OverAllAnalysis/ReasonwiseDropoutAnalysis";
 import CastewiseDropoutAnalysis from "../../Admin/OverAllAnalysis/CastewiseDropoutAnalysis";
-import DisablitywiseDropoutAnalysis from "../../Admin/OverAllAnalysis/DisablitywiseDropoutAnalysis";
+// import DisablitywiseDropoutAnalysis from "../../Admin/OverAllAnalysis/DisablitywiseDropoutAnalysis";
 import FamilyIncomewiseDropoutAnalysis from "../../Admin/OverAllAnalysis/IncomewiseDropoutAnalysis";
 import ReasonwiseGenderDropoutAnalysis from "../../Admin/OverAllAnalysis/ReasonwiseGenderDropoutAnalysis";
 import YearwiseGenderAnalysis from "../../Admin/OverAllAnalysis/YearwiseGenderAnalysis";
 import MediumwiseDropoutAnalysis from "../../Admin/OverAllAnalysis/MediumwiseDropoutAnalysis";
 import AreawiseDropoutAnalysis from "../../Admin/OverAllAnalysis/AreawiseDropoutAnalysis";
-import ParentOccupationwiseDropoutAnalysis from "../../Admin/OverAllAnalysis/ParentOccupationwiseDropoutAnalysis";
+import AcademicsWiseAnalysis from "../../Admin/Analysis/AcademicsWiseAnalysis";
+// import ParentOccupationwiseDropoutAnalysis from "../../Admin/OverAllAnalysis/ParentOccupationwiseDropoutAnalysis";
 import { useSelector } from "react-redux";
 const Analysis = () => {
     const [selectedDistrict, setSelectedDistrict] = useState("");
@@ -103,6 +104,7 @@ const Analysis = () => {
                         </select>
                     </label>
                 </div>
+                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <StandardwiseDropoutAnalysis
                     selectedCity={selectedCity}
                     selectedTaluka={selectedTaluka}
@@ -127,24 +129,19 @@ const Analysis = () => {
                     selectedDistrict={selectedDistrict}
                     selectedState={userData.State._id}
                 />
-                <DisablitywiseDropoutAnalysis
+                {/* <DisablitywiseDropoutAnalysis
                     selectedCity={selectedCity}
                     selectedTaluka={selectedTaluka}
                     selectedDistrict={selectedDistrict}
                     selectedState={userData.State._id}
-                />
+                /> */}
                 <FamilyIncomewiseDropoutAnalysis
                     selectedCity={selectedCity}
                     selectedTaluka={selectedTaluka}
                     selectedDistrict={selectedDistrict}
                     selectedState={userData.State._id}
                 />
-                <ReasonwiseGenderDropoutAnalysis
-                    selectedCity={selectedCity}
-                    selectedTaluka={selectedTaluka}
-                    selectedDistrict={selectedDistrict}
-                    selectedState={userData.State._id}
-                />
+                
                 <YearwiseGenderAnalysis
                     selectedCity={selectedCity}
                     selectedTaluka={selectedTaluka}
@@ -163,12 +160,19 @@ const Analysis = () => {
                     selectedDistrict={selectedDistrict}
                     selectedState={userData.State._id}
                 />
-                <ParentOccupationwiseDropoutAnalysis
+                {/* <ParentOccupationwiseDropoutAnalysis
                     selectedCity={selectedCity}
                     selectedTaluka={selectedTaluka}
                     selectedDistrict={selectedDistrict}
                     selectedState={userData.State._id}
-                />
+                /> */}
+                  <AcademicsWiseAnalysis
+          selectedCity={selectedCity}
+          selectedTaluka={selectedTaluka}
+          selectedDistrict={selectedDistrict}
+          selectedState={userData.State._id}
+        />
+                </div>
             </div>
         </>
     );

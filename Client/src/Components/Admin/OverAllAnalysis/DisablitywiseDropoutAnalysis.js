@@ -1,151 +1,151 @@
-import React, { useEffect, useState } from "react";
-import ReactApexChart from "react-apexcharts";
+// import React, { useEffect, useState } from "react";
+// import ReactApexChart from "react-apexcharts";
 
-const DisablitywiseDropoutAnalysis = ({
-  selectedCity,
-  selectedTaluka,
-  selectedDistrict,
-  selectedState,
-}) => {
-  const [chartData, setChartData] = useState({
-    series: [
-      {
-        name: "Capacity",
-        data: [30, 40, 35, 50],
-      },
-      {
-        name: "Enroll Athelte",
-        data: [49, 60, 10, 12],
-      },
-    ],
-    options: {
-      chart: {
-        type: "bar",
-        height: 350,
-      },
-      plotOptions: {
-        bar: {
-          horizontal: false,
-          columnWidth: "55%",
-          endingShape: "rounded",
-        },
-      },
-      dataLabels: {
-        enabled: true,
-        offsetY: -10,
-        style: {
-          fontSize: "12px",
-          fontWeight: "bold",
-          colors: ["#000"],
-        },
-        formatter: function (val) {
-          return val + "%"; // Append "%" to the label
-        },
-      },
-      xaxis: {
-        categories: ["Cricket", "Basket Ball", "Volly Ball", "Tennis"],
-      },
-      yaxis: {
-        title: {
-          text: "Percentage of Dropout students",
-          style: {
-            fontSize: "12px",
-            // fontWeight: "bold",
-            fontFamily: undefined,
-            color: "#263238",
-          }, // Your Y-axis title
-        },
-      },
-      colors: ["#f97316", "#fbbf24"],
-      title: {
-        text: "Disablity wise Dropout Analysis",
-        align: "center",
-        margin: 50,
-        offsetX: 0,
-        offsetY: 0,
-        floating: false,
-        style: {
-          fontSize: "26px",
-          fontWeight: "bold",
-          fontFamily: undefined,
-          color: "#263238",
-        },
-      },
-      fill: {
-        opacity: 1,
-      },
-    },
-  });
+// const DisablitywiseDropoutAnalysis = ({
+//   selectedCity,
+//   selectedTaluka,
+//   selectedDistrict,
+//   selectedState,
+// }) => {
+//   const [chartData, setChartData] = useState({
+//     series: [
+//       {
+//         name: "Capacity",
+//         data: [30, 40, 35, 50],
+//       },
+//       {
+//         name: "Enroll Athelte",
+//         data: [49, 60, 10, 12],
+//       },
+//     ],
+//     options: {
+//       chart: {
+//         type: "bar",
+//         height: 350,
+//       },
+//       plotOptions: {
+//         bar: {
+//           horizontal: false,
+//           columnWidth: "55%",
+//           endingShape: "rounded",
+//         },
+//       },
+//       dataLabels: {
+//         enabled: true,
+//         offsetY: -10,
+//         style: {
+//           fontSize: "12px",
+//           fontWeight: "bold",
+//           colors: ["#000"],
+//         },
+//         formatter: function (val) {
+//           return val + "%"; // Append "%" to the label
+//         },
+//       },
+//       xaxis: {
+//         categories: ["Cricket", "Basket Ball", "Volly Ball", "Tennis"],
+//       },
+//       yaxis: {
+//         title: {
+//           text: "Percentage of Dropout students",
+//           style: {
+//             fontSize: "12px",
+//             // fontWeight: "bold",
+//             fontFamily: undefined,
+//             color: "#263238",
+//           }, // Your Y-axis title
+//         },
+//       },
+//       colors: ["#f97316", "#fbbf24"],
+//       title: {
+//         text: "Disablity wise Dropout Analysis",
+//         align: "center",
+//         margin: 50,
+//         offsetX: 0,
+//         offsetY: 0,
+//         floating: false,
+//         style: {
+//           fontSize: "26px",
+//           fontWeight: "bold",
+//           fontFamily: undefined,
+//           color: "#263238",
+//         },
+//       },
+//       fill: {
+//         opacity: 1,
+//       },
+//     },
+//   });
 
-  useEffect(() => {
-    var requestOptions = {
-      method: "GET",
-      redirect: "follow",
-    };
+//   useEffect(() => {
+//     var requestOptions = {
+//       method: "GET",
+//       redirect: "follow",
+//     };
 
-    fetch(
-      `http://localhost:3000/FilterStudentinGroup/Disablity?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&school`,
-      requestOptions
-    )
-      .then((response) => response.json())
-      .then((result) => {
-        console.log(result);
-        const datas = result.data;
-        // const categories = datas.StudentsData.map(
-        //   (s) => "Disability " + s.Disablity
-        // );
-        // const percentages = datas.StudentsData.map((student, index) => {
-        //   const totalStudent = datas.total[index].numOfStudent;
-        //   return parseFloat(
-        //     ((student.numOfStudent / totalStudent) * 100).toFixed(2)
-        //   );
-        // });
+//     fetch(
+//       `http://localhost:3000/FilterStudentinGroup/Disablity?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&school`,
+//       requestOptions
+//     )
+//       .then((response) => response.json())
+//       .then((result) => {
+//         console.log(result);
+//         const datas = result.data;
+//         // const categories = datas.StudentsData.map(
+//         //   (s) => "Disability " + s.Disablity
+//         // );
+//         // const percentages = datas.StudentsData.map((student, index) => {
+//         //   const totalStudent = datas.total[index].numOfStudent;
+//         //   return parseFloat(
+//         //     ((student.numOfStudent / totalStudent) * 100).toFixed(2)
+//         //   );
+//         // });
 
-        const categories = datas.StudentsData.map((s) => "Disability " + s.Disablity);
+//         const categories = datas.StudentsData.map((s) => "Disability " + s.Disablity);
 
-        const percentages = datas.StudentsData.map((student, index) => {
-          const Disability = student.Disablity;
+//         const percentages = datas.StudentsData.map((student, index) => {
+//           const Disability = student.Disablity;
 
-          const totalStudent = datas.total.find((total) => total.Disablity === Disability);
+//           const totalStudent = datas.total.find((total) => total.Disablity === Disability);
 
-          if (totalStudent) {
-            const percentage = parseFloat(((student.numOfStudent / totalStudent.numOfStudent) * 100).toFixed(2));
-            return percentage;
-          } else {
-            return 0;
-          }
-        });
+//           if (totalStudent) {
+//             const percentage = parseFloat(((student.numOfStudent / totalStudent.numOfStudent) * 100).toFixed(2));
+//             return percentage;
+//           } else {
+//             return 0;
+//           }
+//         });
 
-        setChartData({
-          ...chartData,
-          series: [
-            {
-              name: "Disability",
-              data: percentages,
-            },
-          ],
-          options: {
-            ...chartData.options,
-            xaxis: {
-              ...chartData.options.xaxis,
-              categories: categories,
-            },
-          },
-        });
-      })
-      .catch((error) => console.log("error", error));
-  }, [selectedCity, selectedDistrict, selectedState, selectedTaluka]);
+//         setChartData({
+//           ...chartData,
+//           series: [
+//             {
+//               name: "Disability",
+//               data: percentages,
+//             },
+//           ],
+//           options: {
+//             ...chartData.options,
+//             xaxis: {
+//               ...chartData.options.xaxis,
+//               categories: categories,
+//             },
+//           },
+//         });
+//       })
+//       .catch((error) => console.log("error", error));
+//   }, [selectedCity, selectedDistrict, selectedState, selectedTaluka]);
 
-  return (
-    <div className="chart m-8">
-      <ReactApexChart
-        options={chartData.options}
-        series={chartData.series}
-        type="bar"
-        height={chartData.options.chart.height}
-      />
-    </div>
-  );
-};
+//   return (
+//     <div className="chart m-8">
+//       <ReactApexChart
+//         options={chartData.options}
+//         series={chartData.series}
+//         type="bar"
+//         height={chartData.options.chart.height}
+//       />
+//     </div>
+//   );
+// };
 
-export default DisablitywiseDropoutAnalysis;
+// export default DisablitywiseDropoutAnalysis;

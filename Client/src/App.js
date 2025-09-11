@@ -58,6 +58,8 @@ import Addreasons from "./Components/Admin/Reason/Addreasons";
 import Remedies from "./Components/School/StudentDetails/Remedies";
 import ScholarShip from "./Components/School/StudentDetails/ScholarShip";
 import RemediesDataTable from "./Components/Admin/RemediesDataTable";
+import StudentNotifications from "./Components/Student/Notifications/StudentNotifications";
+import SchoolNotifications from "./Components/School/Notifications/SchoolNotifications";
 
 const router = createBrowserRouter([
   {
@@ -290,6 +292,11 @@ const router = createBrowserRouter([
         element: <ScholarShip />,
         errorElement: <ErrorPage />,
       },
+      {
+        path: "notifications",
+        element: <SchoolNotifications />,
+        errorElement: <ErrorPage />,
+      },
     ],
   },
   {
@@ -322,6 +329,11 @@ const router = createBrowserRouter([
       {
         path: "schedule",
         element: <ScheduleMeeting />,
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "notifications",
+        element: <StudentNotifications />,
         errorElement: <ErrorPage />,
       },
     ],

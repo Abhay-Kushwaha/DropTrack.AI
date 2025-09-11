@@ -93,7 +93,7 @@ const AdminLayout = () => {
               OverAll Analysis
             </Link>
           </div>
-          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "analysis" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("analysis")}> 
+          {/* <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "analysis" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("analysis")}> 
             <Link
               to={"analysis"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-orange-900 hover:text-orange-100 transition-colors duration-300"
@@ -120,7 +120,7 @@ const AdminLayout = () => {
               </svg>
               Dropout Student Analysis
             </Link>
-          </div>
+          </div> */}
 
           <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "addresources" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("addresources")}> 
             <Link
@@ -319,7 +319,7 @@ const AdminLayout = () => {
                   d="M12 4.5v15m7.5-7.5h-15"
                 />
               </svg>
-              Add Domain
+              Add Entries
             </Link>
           </div>
           <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "addreason" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("addreason")}> 

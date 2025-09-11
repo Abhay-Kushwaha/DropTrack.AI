@@ -145,23 +145,34 @@ export default function RemediesDataTable() {
           </Button>
         </div>
         <div className="flex justify-between mr-2">
-          <Button
-            type="button"
-            label="Clear"
-            outlined
-            className="px-4 py-2 rounded-lg text-orange-900 ring-0 border-2 border-orange-500 hover:bg-orange-100"
-            onClick={clearFilter}
-          />
+  <div className="flex gap-2">
+    <Button
+      type="button"
+      label="Clear"
+      outlined
+      className="px-4 py-2 rounded-lg text-orange-900 ring-0 border-2 border-orange-500 hover:bg-orange-100"
+      onClick={clearFilter}
+    />
 
-          <span className="p-input-icon-left">
-            <InputText
-              value={globalFilterValues.Name}
-              onChange={onGlobalFilterChange}
-              placeholder="Keyword Search"
-              className="p-2 ring-1 ring-opacity-50 ring-black focus:ring-orange-500 focus:ring-2 focus:ring-opacity-70 hover:ring-opacity-100 hover:ring-orange-400"
-            />
-          </span>
-        </div>
+    <Button
+      type="button"
+      label="Download CSV"
+      outlined
+      className="px-4 py-2 rounded-lg text-orange-900 ring-0 border-2 border-orange-500 hover:bg-orange-100"
+      onClick={() => console.log("Download CSV clicked")}
+    />
+  </div>
+
+  <span className="p-input-icon-left">
+    <InputText
+      value={globalFilterValues.Name}
+      onChange={onGlobalFilterChange}
+      placeholder="Keyword Search"
+      className="p-2 ring-1 ring-opacity-50 ring-black focus:ring-orange-500 focus:ring-2 focus:ring-opacity-70 hover:ring-opacity-100 hover:ring-orange-400"
+    />
+  </span>
+</div>
+
       </>
     );
   };
@@ -214,7 +225,7 @@ export default function RemediesDataTable() {
 
   return (
     <>
-      <div className="card ">
+     <div className="card mx-5"> 
         <DataTable
           ref={dt}
           value={customers}

@@ -1,6 +1,7 @@
+from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework import status
+from .summary import generate_gemini_insights 
 
 from .pymongo_client import get_db
 from .prediction_pipeline import (
@@ -10,8 +11,14 @@ from .prediction_pipeline import (
 class PredictSchoolView(APIView):
     """
     POST /ML_api/predict/
-    Body: { "school_public_id": <number> }  OR  { "school_name": "<string>" }
-          + optional: { "fees_months_denom": 12 }
+    Body:
+      { "school_public_id": <number> } OR { "school_name": "<string>" }
+      + optional:
+          { "fees_months_denom": 12,
+            "with_gemini": true,              // default False
+            "gemini_max_students": 10,        // optional
+            "gemini_max_chars": 1800          // optional
+           }
     NOTE: Raw ObjectIds from client are rejected by design.
     """
 
@@ -30,6 +37,10 @@ class PredictSchoolView(APIView):
                 {"detail": "Provide school_public_id (number) or school_name."},
                 status=status.HTTP_400_BAD_REQUEST
             )
+            
+        with_gemini = bool(request.data.get("with_gemini", False))
+        g_max_students = int(request.data.get("gemini_max_students", 10))
+        g_max_chars = int(request.data.get("gemini_max_chars", 1800))
 
         try:
             denom = int(request.data.get("fees_months_denom", 12))
@@ -43,9 +54,26 @@ class PredictSchoolView(APIView):
             if df.empty:
                 return Response({"count": 0, "results": []}, status=status.HTTP_200_OK)
 
-            df_out = run_prediction_pipeline(df)
+            scope_key = f"school:{str(school_oid)}"
+            force = bool(request.data.get("force_retrain", False))
+            df_out = run_prediction_pipeline(df, model_scope=scope_key, force_retrain=force)            
+            
             payload = to_api_payload(df_out)
+            
+            # Gemini summary
+            if with_gemini:
+                insights, g_status = generate_gemini_insights(
+                    results=payload["results"],
+                    school_label=school_name or (
+                        f"SchoolID {school_public_id}" if school_public_id is not None else "this school"
+                    ),
+                    max_students=g_max_students,
+                    max_chars=g_max_chars,
+                )
+                payload["gemini"] = {"status": g_status, "insights": insights or ""}
+
             return Response(payload, status=status.HTTP_200_OK)
+
 
         except Exception as e:
             return Response({"detail": f"Prediction failed: {e}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
