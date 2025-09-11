@@ -29,7 +29,7 @@ urlpatterns = [
 // to generate the .pkl file (run only onces! )
 # in all json inputs below : 
 
-"force_retrain": true    
+"force_retrain": true    <<<
 -----------------------------------------------------
 
 http://127.0.0.1:8000/ML_api/predict/school/
