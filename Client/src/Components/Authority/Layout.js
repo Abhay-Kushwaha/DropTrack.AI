@@ -200,7 +200,7 @@ const AuthorityLayout = () => {
               Dropout Students
             </Link>
           </div>
-          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "stateprediction" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("stateprediction")}>
+          {/* <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "stateprediction" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("stateprediction")}>
             <Link
               to={"stateprediction"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-orange-900 hover:text-orange-100 transition-colors duration-300 "
@@ -220,6 +220,28 @@ const AuthorityLayout = () => {
                 />
               </svg>
               Predict Dropout Students
+            </Link>
+          </div> */}
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "StateAggregateDashboard" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("StateAggregateDashboard")}>
+            <Link
+              to={"StateAggregateDashboard"}
+              className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-orange-900 hover:text-orange-100 transition-colors duration-300 "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              State Aggregate Dashboard
             </Link>
           </div>
           <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "remediesresources" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("remediesresources")}>

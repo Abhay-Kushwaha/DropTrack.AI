@@ -63,6 +63,8 @@ import StudentNotifications from "./Components/Student/Notifications/StudentNoti
 import RAGChat from "./Components/Student/RAG/RAGClient";
 import SchoolNotifications from "./Components/School/Notifications/SchoolNotifications";
 import DroppedStudents from "./Components/Mentor/DroppedStudents";
+import StateAggregateDashboard from "./Components/Authority/Prediction/StateAggregateDashboard";
+
 
 const router = createBrowserRouter([
   {
@@ -204,6 +206,11 @@ const router = createBrowserRouter([
       {
         path: "stateprediction",
         element: <StatePrediction />,
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "StateAggregateDashboard",
+        element: <StateAggregateDashboard />,
         errorElement: <ErrorPage />,
       },
       {
