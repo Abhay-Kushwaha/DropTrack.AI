@@ -47,8 +47,10 @@ INSTALLED_APPS = [
     "corsheaders",
     "django_extensions",
 
-
     "ML_Apps",
+    "RAG_app",
+    "WhatsApp_Gmail_APP",
+
 ]
 
 MIDDLEWARE = [
@@ -139,7 +141,22 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 REST_FRAMEWORK = {
         "DEFAULT_PERMISSION_CLASSES": ["rest_framework.permissions.AllowAny"],    
         "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+
+        'DEFAULT_RENDERER_CLASSES': ['rest_framework.renderers.JSONRenderer'],
+        'DEFAULT_PARSER_CLASSES': ['rest_framework.parsers.JSONParser',
+                                'rest_framework.parsers.MultiPartParser',
+                                'rest_framework.parsers.FormParser'],
 }
+DATA_UPLOAD_MAX_MEMORY_SIZE = 104857600  # 100MB
+FILE_UPLOAD_MAX_MEMORY_SIZE = 104857600
+
+# Rag ---------------------------------------
+# REST_FRAMEWORK = {
+#     'DEFAULT_RENDERER_CLASSES': ['rest_framework.renderers.JSONRenderer'],
+#     'DEFAULT_PARSER_CLASSES': ['rest_framework.parsers.JSONParser',
+#                                'rest_framework.parsers.MultiPartParser',
+#                                'rest_framework.parsers.FormParser'],
+# }
 SPECTACULAR_SETTINGS = {
         'TITLE': 'DRF backend API',
         'DESCRIPTION': 'PS : 102',
@@ -161,10 +178,61 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),  # Uncomment if you have a static folder
 ]
 
-MONGODB_URI = os.environ["MONGODB_URI"]
-MONGODB_DB = os.environ.get("MONGODB_DB", "Dropout")
-
 # JWT_SECRET = os.environ.get("JWT_SECRET", "")
 # JWT_ALG = os.environ.get("JWT_ALG", "HS256")
 # JWT_AUD = os.environ.get("JWT_AUD") or None
 # JWT_ISS = os.environ.get("JWT_ISS") or None
+
+# ——— RAG settings (paths kept identical to your scripts)
+DB_FAISS_PATH = str(BASE_DIR / 'vectorstore' / 'db_faiss')
+
+import os, ast
+def env_list(name, default=None):
+    val = os.environ.get(name)
+    if not val:
+        return default or []
+    val = val.strip()
+    if val.startswith('[') and val.endswith(']'):
+        try:
+            parsed = ast.literal_eval(val)
+            return [str(x).strip() for x in (parsed or []) if str(x).strip()]
+        except Exception:
+            pass
+    return [s.strip() for s in val.split(',') if s.strip()]
+    
+RECEIVER_EMAILS = env_list("RECEIVER_EMAILS", [])
+RECEIVERS_WHATSAPP_NUMBERS = env_list("RECEIVERS_WHATSAPP_NUMBERS", [])
+
+
+MONGODB_URI = os.environ["MONGODB_URI"]
+MONGODB_DB = os.environ.get("MONGODB_DB", "Dropout")
+
+TWILIO_ACCOUNT_SID = os.environ.get("TWILIO_ACCOUNT_SID")
+TWILIO_AUTH_TOKEN = os.environ.get("TWILIO_AUTH_TOKEN")
+
+TECH_MAIL_ID = os.environ.get("TECH_MAIL_ID")
+TECH_MAIL_PASS = os.environ.get("TECH_MAIL_PASS")
+
+SENDER_WHATSAPP_NUMBER = os.environ.get("SENDER_WHATSAPP_NUMBER")
+# RECEIVERS_WHATSAPP_NUMBERS = os.environ.get("RECEIVERS_WHATSAPP_NUMBERS")
+# RECEIVER_EMAILS = os.environ.get("RECEIVER_EMAILS")
+
+
+# Optional default for non-E.164 input (used by WhatsApp normalizer)
+DEFAULT_COUNTRY_CODE = '+91'
+
+
+
+# ---- Email (Django email backend) ----
+# Configure these for your SMTP (example uses Gmail)
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = TECH_MAIL_ID             # sender email
+EMAIL_HOST_PASSWORD = TECH_MAIL_PASS       # app-specific password
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
+
+
+

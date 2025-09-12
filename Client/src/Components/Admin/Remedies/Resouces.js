@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
+import Swal from 'sweetalert2';
 
 const Resources = () => {
     const [reasons, setReasons] = useState([]);
@@ -90,8 +91,31 @@ const Resources = () => {
 
         fetch(`http://localhost:3000/addResource?id=${filesData.reason}`, requestOptions)
             .then(response => response.text())
-            .then(result => console.log(result))
-            .catch(error => console.log('error', error));
+            .then(result => {
+                if (result.status === 200) {
+                    Swal.fire({
+                        position: "top-end",
+                        icon: "success",
+                        title: "Resources Added Successfully",
+                        showConfirmButton: false,
+                        timer: 1500
+                    });
+                    formik.resetForm();
+                } else {
+                    Swal.fire({
+                        icon: "error",
+                        title: "Error",
+                        text: result.message || "Failed to add resources"
+                    });
+                }
+            })
+            .catch(error => {
+                Swal.fire({
+                    icon: "error",
+                    title: "Error",
+                    text: "Failed to upload resources"
+                });
+            });
 
         action.resetForm();
     };

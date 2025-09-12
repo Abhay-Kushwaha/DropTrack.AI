@@ -1,6 +1,7 @@
 import React from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
+import Swal from 'sweetalert2';
 
 const Addreasons = () => {
     const formik = useFormik({
@@ -20,7 +21,16 @@ const Addreasons = () => {
                 body: JSON.stringify({ reason: values.reason, category: values.subReasons }),
             })
                 .then(res => res.text())
-                .then(() => action.resetForm())
+                .then(() => {
+                    Swal.fire({
+                        position: "top-end",
+                        icon: "success",
+                        title: "New Dropout Reason Added",
+                        showConfirmButton: false,
+                        timer: 1500
+                    });
+                    action.resetForm()
+                })
                 .catch(err => console.log('error', err));
         },
     });

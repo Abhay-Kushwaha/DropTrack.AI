@@ -171,24 +171,24 @@ const Analysis = () => {
                     selectedDistrict={selectedDistrict}
                     selectedState={selectedState}
                 />
-                <AreawiseDropoutAnalysis
+                {/* <AreawiseDropoutAnalysis
                     selectedCity={selectedCity}
                     selectedTaluka={selectedTaluka}
                     selectedDistrict={selectedDistrict}
                     selectedState={selectedState}
-                />
+                /> */}
                 {/* <ParentOccupationwiseDropoutAnalysis
                     selectedCity={selectedCity}
                     selectedTaluka={selectedTaluka}
                     selectedDistrict={selectedDistrict}
                     selectedState={selectedState}
                 /> */}
-                 <AcademicsWiseAnalysis
+                 {/* <AcademicsWiseAnalysis
           selectedCity={selectedCity}
           selectedTaluka={selectedTaluka}
           selectedDistrict={selectedDistrict}
           selectedState={selectedState}
-        />
+        /> */}
                 
                 </div>
             </div>

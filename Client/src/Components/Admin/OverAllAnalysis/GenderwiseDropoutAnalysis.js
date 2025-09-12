@@ -1,59 +1,71 @@
 import React, { useEffect, useState } from "react";
 import ReactApexChart from "react-apexcharts";
 
-const GenderwiseDropoutAnalysis = ({
+const CastewiseDropoutAnalysis = ({
   selectedCity,
   selectedTaluka,
   selectedDistrict,
   selectedState,
 }) => {
   const [chartData, setChartData] = useState({
-    series: [30, 40, 35, 50], // Adjust the series data accordingly
+    series: [
+      {
+        name: "Dropouts",
+        data: [],
+      },
+    ],
     options: {
       chart: {
-        type: "donut", // Change the chart type to 'donut'
+        type: "histogram",
         height: 350,
       },
-      labels: ["Cricket", "Basket Ball", "Volly Ball", "Tennis"], // Use labels instead of categories for donut chart
       title: {
-        text: "Gender wise Dropout Analysis",
+        text: "Caste wise Dropout Analysis",
         align: "center",
         margin: 50,
-        offsetX: 0,
-        offsetY: 0,
-        floating: false,
         style: {
-          fontSize: "26px",
+          fontSize: "22px",
           fontWeight: "bold",
-          fontFamily: undefined,
           color: "#263238",
         },
       },
-      colors: ["#f97316", "#fbbf24", "#ea580c"],
-      fill: {
-        opacity: 1,
+      xaxis: {
+        categories: [], // Castes will be filled dynamically
+        title: {
+          text: "Caste",
+          style: {
+            fontSize: "14px",
+            fontWeight: "bold",
+            color: "#263238",
+          },
+        },
+      },
+      yaxis: {
+        title: {
+          text: "Number of Dropout Students",
+          style: {
+            fontSize: "14px",
+            fontWeight: "bold",
+            color: "#263238",
+          },
+        },
       },
       plotOptions: {
-        pie: {
-          donut: {
-            size: "60%",
-            labels: {
-              show: true,
-              total: {
-                show: true,
-                showAlways: false,
-                label: "Total",
-                fontSize: "22px",
-                fontFamily: "Helvetica, Arial, sans-serif",
-                fontWeight: 600,
-                color: "#373d3f",
-                formatter: function (w) {
-                  let total = w.globals.seriesTotals.reduce((a, b) => a + b, 0).toFixed(2);
-                  return total;
-                },
-              },
-            },
-          },
+        bar: {
+          horizontal: false,
+          columnWidth: "70%",
+        },
+      },
+      colors: ["#f97316"], // Orange bars
+      dataLabels: {
+        enabled: true,
+        formatter: function (val) {
+          return val; // Just show dropout count
+        },
+        style: {
+          fontSize: "12px",
+          fontWeight: "bold",
+          colors: ["#000"],
         },
       },
     },
@@ -66,44 +78,32 @@ const GenderwiseDropoutAnalysis = ({
     };
 
     fetch(
-      `http://localhost:3000/FilterStudentinGroup/Gender?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&school`,
+      `http://localhost:3000/FilterStudentinGroup/Caste?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&school`,
       requestOptions
     )
       .then((response) => response.json())
       .then((result) => {
-        // console.log(result);
         const datas = result.data;
-        // const categories = datas.StudentsData.map(
-        //   (s) => s.Gender
-        // );
-        // const percentages = datas.StudentsData.map((student, index) => {
-        //   const totalStudent = datas.total[index].numOfStudent;
-        //   return totalStudent;
-        // });
 
-        const categories = datas.StudentsData.map((s) => s.Gender);
+        const categories = datas.StudentsData.map((s) => s.Caste);
+        const dropouts = datas.StudentsData.map((student) => student.numOfStudent);
 
-        const percentages = datas.StudentsData.map((student, index) => {
-          const gender = student.Gender;
-
-          const totalStudent = datas.total.find((total) => total.Gender === gender);
-
-          if (totalStudent) {
-            const percentage = parseFloat(((student.numOfStudent / totalStudent.numOfStudent) * 100).toFixed(2));
-            return percentage;
-          } else {
-            return 0;
-          }
-        });
-
-        setChartData({
-          ...chartData,
-          series: percentages,
+        setChartData((prev) => ({
+          ...prev,
+          series: [
+            {
+              name: "Dropouts",
+              data: dropouts,
+            },
+          ],
           options: {
-            ...chartData.options,
-            labels: categories,
+            ...prev.options,
+            xaxis: {
+              ...prev.options.xaxis,
+              categories: categories,
+            },
           },
-        });
+        }));
       })
       .catch((error) => console.log("error", error));
   }, [selectedCity, selectedDistrict, selectedState, selectedTaluka]);
@@ -113,11 +113,11 @@ const GenderwiseDropoutAnalysis = ({
       <ReactApexChart
         options={chartData.options}
         series={chartData.series}
-        type="donut"
+        type="bar" // Histogram in ApexCharts is shown as a bar chart
         height={chartData.options.chart.height}
       />
     </div>
   );
 };
 
-export default GenderwiseDropoutAnalysis;
+export default CastewiseDropoutAnalysis;
