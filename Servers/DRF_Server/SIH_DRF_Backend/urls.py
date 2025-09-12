@@ -22,7 +22,7 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView, Sp
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("ML_api/", include("ML_Apps.urls")),
-    path("RAG_api/", include("RAG_app.urls")),
+    # path("RAG_api/", include("RAG_app.urls")),
     
     path('DRF_Gmail_WhatsApp_Api/', include('WhatsApp_Gmail_APP.urls')),
     

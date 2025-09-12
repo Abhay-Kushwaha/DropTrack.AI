@@ -26,6 +26,7 @@ import AddSchoolForm from "./Components/Authority/AddSchool/AddSchoolForm";
 import LoginVerify from "./Components/Auth/LoginVerify";
 import Verify from "./Components/Auth/Verify";
 import SchoolDataTable from "./Components/Authority/AddSchool/SchoolDataTable";
+import StatePrediction from "./Components/Authority/Prediction/stateprediction";
 import AdminSchoolDataTable from "./Components/Admin/School/SchoolDataTable";
 import DropedStudents from "./Components/School/StudentDetails/DropedStudents";
 import InactiveStudent from "./Components/School/StudentDetails/InactiveStudents";
@@ -59,6 +60,7 @@ import Remedies from "./Components/School/StudentDetails/Remedies";
 import ScholarShip from "./Components/School/StudentDetails/ScholarShip";
 import RemediesDataTable from "./Components/Admin/RemediesDataTable";
 import StudentNotifications from "./Components/Student/Notifications/StudentNotifications";
+import RAGChat from "./Components/Student/RAG/RAGClient";
 import SchoolNotifications from "./Components/School/Notifications/SchoolNotifications";
 
 const router = createBrowserRouter([
@@ -199,6 +201,11 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />,
       },
       {
+        path: "stateprediction",
+        element: <StatePrediction />,
+        errorElement: <ErrorPage />,
+      },
+      {
         path: "overallanalysis",
         element: <AuthorityOverAllAnalysis />,
         errorElement: <ErrorPage />,
@@ -334,6 +341,11 @@ const router = createBrowserRouter([
       {
         path: "notifications",
         element: <StudentNotifications />,
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "Chat-with-Doc",
+        element: <RAGChat />,
         errorElement: <ErrorPage />,
       },
     ],
