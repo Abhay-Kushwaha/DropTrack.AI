@@ -199,7 +199,7 @@ const AuthorityLayout = () => {
               Dropout Students
             </Link>
           </div>
-          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "dropoutstudents" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("dropoutstudents")}>
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "stateprediction" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("stateprediction")}>
             <Link
               to={"stateprediction"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-orange-900 hover:text-orange-100 transition-colors duration-300 "
@@ -221,7 +221,7 @@ const AuthorityLayout = () => {
               Predict Dropout Students
             </Link>
           </div>
-          <div className=" hover:shadow-gray-400 hover:shadow-md">
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "remediesresources" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("remediesresources")}>
             <Link
               to={"remediesresources"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-gray-500"
@@ -243,7 +243,7 @@ const AuthorityLayout = () => {
               Government Schemes
             </Link>
           </div>
-          <div className=" hover:shadow-gray-400 hover:shadow-md">
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "activestudents" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("activestudents")}>
             <Link
               to={"activestudents"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-gray-500"
@@ -267,7 +267,7 @@ const AuthorityLayout = () => {
             </Link>
           </div>
 
-          <div className=" hover:shadow-gray-400 hover:shadow-md">
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "schooldetails" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("schooldetails")}>
             <Link
               to={"schooldetails"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-gray-500"
@@ -290,7 +290,7 @@ const AuthorityLayout = () => {
             </Link>
           </div>
 
-          <div className=" hover:shadow-gray-400 hover:shadow-md">
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "addSchool" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("addSchool")}>
             <Link
               to={"addSchool"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-gray-500"
@@ -312,14 +312,14 @@ const AuthorityLayout = () => {
               Add School
             </Link>
           </div>
-          <div className=" hover:shadow-gray-400 hover:shadow-md">
+          {/* <div className=" hover:shadow-gray-400 hover:shadow-md">
             <Link
 
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-gray-500"
             >
 
             </Link>
-          </div>
+          </div> */}
         </nav>
       </aside>
 

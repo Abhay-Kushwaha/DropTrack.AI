@@ -10,12 +10,8 @@ const MediumwiseDropoutAnalysis = ({
   const [chartData, setChartData] = useState({
     series: [
       {
-        name: "Capacity",
-        data: [30, 40, 35, 50],
-      },
-      {
-        name: "Enroll Athelte",
-        data: [49, 60, 10, 12],
+        name: "Dropouts",
+        data: [],
       },
     ],
     options: {
@@ -32,43 +28,36 @@ const MediumwiseDropoutAnalysis = ({
       },
       dataLabels: {
         enabled: true,
-        offsetY: -10,
+        formatter: function (val) {
+          return val; // just show the number, no %
+        },
         style: {
           fontSize: "12px",
           fontWeight: "bold",
           colors: ["#000"],
         },
-        formatter: function (val) {
-          return val + "%"; // Append "%" to the label
-        },
       },
       xaxis: {
-        categories: ["Cricket", "Basket Ball", "Volly Ball", "Tennis"],
+        categories: [],
       },
       yaxis: {
         title: {
-          text: "Percentage of Dropout Students",
+          text: "Number of Dropout Students",
           style: {
             fontSize: "12px",
-            // fontWeight: "bold",
-            fontFamily: undefined,
-            color: "#263238",
-          }, // Your Y-axis title
+            color: "#770000",
+          },
         },
       },
-      colors: ["#f97316", "#fbbf24"],
+      colors: ["#009900"], // green color
       title: {
         text: "Medium wise Dropout Analysis",
         align: "center",
         margin: 50,
-        offsetX: 0,
-        offsetY: 0,
-        floating: false,
         style: {
-          fontSize: "26px",
+          fontSize: "22px",
           fontWeight: "bold",
-          fontFamily: undefined,
-          color: "#263238",
+          color: "#770000",
         },
       },
       fill: {
@@ -89,47 +78,30 @@ const MediumwiseDropoutAnalysis = ({
     )
       .then((response) => response.json())
       .then((result) => {
-        console.log(result);
-        let datas = result.data;
-        // const categories = datas.StudentsData.map((s) => s.schoolType);
-        // const percentages = datas.StudentsData.map((student, index) => {
-        //   const totalStudent = datas.total[index].numOfStudent;
-        //   return parseFloat(
-        //     ((student.numOfStudent / totalStudent) * 100).toFixed(2)
-        //   );
-        // });
+        console.log("Medium wise: ", result);
 
+        const datas = result.data;
         const categories = datas.StudentsData.map((s) => s.schoolType);
 
-        const percentages = datas.StudentsData.map((student, index) => {
-          const schoolType = student.schoolType;
+        // just take the raw dropout numbers (no percentage)
+        const dropouts = datas.StudentsData.map((student) => student.numOfStudent);
 
-          const totalStudent = datas.total.find((total) => total.schoolType === schoolType);
-
-          if (totalStudent) {
-            const percentage = parseFloat(((student.numOfStudent / totalStudent.numOfStudent) * 100).toFixed(2));
-            return percentage;
-          } else {
-            return 0;
-          }
-        });
-
-        setChartData({
-          ...chartData,
+        setChartData((prev) => ({
+          ...prev,
           series: [
             {
-              name: "Medium",
-              data: percentages,
+              name: "Dropouts",
+              data: dropouts,
             },
           ],
           options: {
-            ...chartData.options,
+            ...prev.options,
             xaxis: {
-              ...chartData.options.xaxis,
+              ...prev.options.xaxis,
               categories: categories,
             },
           },
-        });
+        }));
       })
       .catch((error) => console.log("error", error));
   }, [selectedCity, selectedDistrict, selectedState, selectedTaluka]);

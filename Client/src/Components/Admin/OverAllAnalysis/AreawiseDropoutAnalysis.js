@@ -89,7 +89,7 @@ const AreawiseDropoutAnalysis = ({
     )
       .then((response) => response.json())
       .then((result) => {
-        // console.log(result)
+        console.log("Area Wise: ",result)
         let datas = result.data;
         // const categories = datas.StudentsData.map((s) =>
         //   s.areaType == 1 ? "Rural" : "Urban"

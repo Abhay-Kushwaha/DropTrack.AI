@@ -74,8 +74,8 @@ const App = () => {
                 <nav className="container mx-auto px-6 py-5 flex items-center justify-between">
                     {/* Logo */}
                     <div className='cursor-pointer flex items-center'>
-                        <img src={logo} alt="EduTrack Logo" className="h-12 w-12 rounded-full object-cover mr-3" />
-                        <span className="text-3xl font-bold text-orange-600">EduTrack</span>
+                        <img src={logo} alt="DropTrack AI Logo" className="h-12 w-12 rounded-full object-cover mr-3" />
+                        <span className="text-3xl font-bold text-orange-600">DropTrack AI</span>
                     </div>
 
                     {/* Desktop Menu */}
@@ -142,7 +142,7 @@ const App = () => {
                                 src={logo}
                                 alt="Dashboard preview showing student analytics"
                                 className="relative rounded-2xl shadow-2xl mx-auto transform transition-transform duration-500 hover:scale-105 w-400"
-                                onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/600x450/FFEEE0/4B2C1A?text=EduTrack+Dashboard'; }}
+                                onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/600x450/FFEEE0/4B2C1A?text=DropTrack AI+Dashboard'; }}
                             />
                         </div>
                     </div>
@@ -151,7 +151,7 @@ const App = () => {
                 {/* Features Section */}
                 <section id="features" className="py-20 md:py-28 bg-white">
                     <div className="container mx-auto px-6 text-center">
-                        <h2 className="text-3xl md:text-4xl font-bold text-amber-900 mb-4">Why EduTrack?</h2>
+                        <h2 className="text-3xl md:text-4xl font-bold text-amber-900 mb-4">Why DropTrack AI?</h2>
                         <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-16">
                             We provide the tools you need to foster a proactive and supportive educational environment.
                         </p>
@@ -179,7 +179,7 @@ const App = () => {
                         <div className="md:col-span-3">
                             <h2 className="text-3xl md:text-4xl font-bold text-amber-900 mb-6">Built for Educators, by Innovators</h2>
                             <p className="text-lg text-gray-600 leading-relaxed mb-4">
-                                EduTrack is a lightweight, transparent, and impactful student
+                                DropTrack AI is a lightweight, transparent, and impactful student
                                 monitoring system built for public and private institutes. By merging existing
                                 data sources and applying clear, predictive logic, we empower educators with
                                 actionable insights to prevent student dropouts.
@@ -209,7 +209,7 @@ const App = () => {
             {/* Footer */}
             <footer className="bg-amber-100/70 border-t border-orange-200">
                 <div className="container mx-auto px-6 py-10 text-center">
-                    <p className="text-xl font-bold text-orange-600 mb-4">EduTrack</p>
+                    <p className="text-xl font-bold text-orange-600 mb-4">DropTrack AI</p>
                     <div className="flex justify-center gap-6 mb-6">
                         {navLinks.map(link => (
                             <a key={link.title} href={link.href} className="text-gray-600 hover:text-orange-500 transition-colors duration-300">
@@ -217,7 +217,7 @@ const App = () => {
                             </a>
                         ))}
                     </div>
-                    <p className="text-gray-500">&copy; {new Date().getFullYear()} EduTrack. All Rights Reserved.</p>
+                    <p className="text-gray-500">&copy; {new Date().getFullYear()} DropTrack AI. All Rights Reserved.</p>
                 </div>
             </footer>
         </div>
