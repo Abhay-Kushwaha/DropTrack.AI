@@ -10,6 +10,8 @@ import {
 import Swal from "sweetalert2";
 import { UserActions } from "../../Store/UserData";
 import image from "./../../Assets/logo.jpg";
+import GoogleTranslate from "../GoogleTranslate"
+
 const Layout = () => {
   const dispatch = useDispatch();
   dispatch(UserActions.getuserdata(useLoaderData()));
@@ -317,26 +319,32 @@ const Layout = () => {
               </svg>
             </Link>
 
-            <button
-              onClick={LogoutHandler}
-              className="realtive z-10 flex rounded-full px-5 h-12 hover:shadow-md hover:shadow-gray-800 bg-white overflow-hidden hover:bg-gray-200 hover:border-gray-300 focus:border-gray-300 focus:outline-none "
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="w-6 h-6 m-auto"
+            <div className="flex items-center gap-4">
+              <div className="z-10 h-12 flex items-center px-2 bg-white rounded-lg hover:shadow-md hover:shadow-orange-800">
+                <GoogleTranslate />
+              </div>
+              <button
+                onClick={LogoutHandler}
+                className="relative z-10 flex rounded-lg px-5 h-12 hover:shadow-md hover:shadow-gray-800 bg-white overflow-hidden hover:bg-gray-200 hover:border-gray-300 focus:border-gray-300 focus:outline-none "
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75"
-                />
-              </svg>
-              <div className="m-auto">Logout</div>
-            </button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="w-6 h-6 m-auto"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75"
+                  />
+                </svg>
+                <div className="m-auto">Logout</div>
+              </button>
+            </div>
+
             {/* </NavLink> */}
             <button
               style={{ display: isOpen ? "block" : "none" }}
@@ -402,12 +410,18 @@ const Layout = () => {
               <i className="fas fa-tachometer-alt mr-3"></i>
               Dashboard
             </Link>
-            <Link
-              className="flex items-center active-nav-link text-white py-2 pl-4 nav-item"
-            >
-              <i className="fas fa-tachometer-alt mr-3"></i>
-              Logout
-            </Link>
+            <div>
+              <div className="top-0 left-0 p-6 text-center">
+                <GoogleTranslate />
+              </div>
+              <Link
+                //   onClick={LogoutHandler}
+                className="flex items-center active-nav-link text-white py-2 pl-4 nav-item"
+              >
+                <i className="fas fa-tachometer-alt mr-3"></i>
+                Logout
+              </Link>
+            </div>
           </nav>
         </header>
 

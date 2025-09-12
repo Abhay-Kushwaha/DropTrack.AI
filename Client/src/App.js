@@ -384,10 +384,10 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />,
       },
       {
-      path: "droppedstudents",  
-      element: <DroppedStudents />,
-      errorElement: <ErrorPage />,
-    },
+        path: "droppedstudents",
+        element: <DroppedStudents />,
+        errorElement: <ErrorPage />,
+      },
     ],
   },
 ]);

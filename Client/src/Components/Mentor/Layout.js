@@ -9,6 +9,8 @@ import {
 import Swal from "sweetalert2";
 import { UserActions } from "../../Store/UserData";
 import image from "./../../Assets/logo.jpg";
+import GoogleTranslate from "../GoogleTranslate";
+
 const Layout = () => {
   const dispatch = useDispatch();
   dispatch(UserActions.getuserdata(useLoaderData()));
@@ -145,45 +147,11 @@ const Layout = () => {
             </Link>
           </div>
 
-{/* Dropped Students */}
-<div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "droppedstudents" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("droppedstudents")}>
-  <Link
-    to={"droppedstudents"}
-    className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-orange-900 hover:text-orange-100 transition-colors duration-300"
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      strokeWidth="1.5"
-      stroke="currentColor"
-      className="w-6 h-6"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M12 14v7m-6-3h12a2 2 0 002-2V5a2 2 0 00-2-2H6a2 2 0 00-2 2v11a2 2 0 002 2z"
-      />
-    </svg>
-    Dropped Students
-  </Link>
-</div>
-
-
-
-          
-        </nav>
-      </aside>
-
-      {/* Main content area */}
-      <div className="w-full flex flex-col h-screen overflow-y-hidden">
-        {/* Top header */}
-        <header className="w-full items-center bg-gradient-to-r from-orange-500 to-amber-500 shadow-orange-300 shadow-md py-2 px-6 hidden sm:flex">
-          <div className="w-1/2"></div>
-          <div className="relative w-1/2 flex justify-end">
-            <button
-              onClick={LogoutHandler}
-              className="relative z-10 flex px-2 rounded-lg h-12 hover:shadow-md hover:shadow-orange-300 bg-white overflow-hidden hover:bg-orange-50 hover:border-orange-300 focus:border-orange-300 focus:outline-none transition-all duration-300"
+          {/* Dropped Students */}
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "droppedstudents" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("droppedstudents")}>
+            <Link
+              to={"droppedstudents"}
+              className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-orange-900 hover:text-orange-100 transition-colors duration-300"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -191,16 +159,52 @@ const Layout = () => {
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                className="w-6 h-6 m-auto"
+                className="w-6 h-6"
               >
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75"
+                  d="M12 14v7m-6-3h12a2 2 0 002-2V5a2 2 0 00-2-2H6a2 2 0 00-2 2v11a2 2 0 002 2z"
                 />
               </svg>
-              <div className="m-auto">Logout</div>
-            </button>
+              Dropped Students
+            </Link>
+          </div>
+        </nav>
+      </aside>
+
+      {/* Main content area */}
+      <div className="w-full flex flex-col h-screen overflow-y-hidden">
+        {/* Top header */}
+        <header className="w-full items-center bg-gradient-to-r from-orange-500 to-amber-500 shadow-orange-300 shadow-md py-2 px-6 hidden sm:flex">
+          <div className="w-full"></div>
+
+          <div className="flex justify-right gap-5">
+            <div className="relative w-full flex justify-end">
+              <div className="z-10 h-12 flex items-center mx-2 px-2 bg-white rounded-lg hover:shadow-md hover:shadow-orange-800">
+                <GoogleTranslate />
+              </div>
+              <button
+                onClick={LogoutHandler}
+                className="relative z-10 flex px-2 rounded-lg h-12 hover:shadow-md hover:shadow-orange-300 bg-white overflow-hidden hover:bg-orange-50 hover:border-orange-300 focus:border-orange-300 focus:outline-none transition-all duration-300"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="w-6 h-6 m-auto"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75"
+                  />
+                </svg>
+                <div className="m-auto">Logout</div>
+              </button>
+            </div>
           </div>
         </header>
 
@@ -279,25 +283,28 @@ const Layout = () => {
             </Link>
 
 
-<Link
-  to={"droppedstudents"}
-  className="flex items-center active-nav-link text-white py-2 pl-4 nav-item"
->
-  <i className="fas fa-user-slash mr-3"></i>
-  Dropped Students
-</Link>
-
-
-
-
-            
-            <button
-              onClick={LogoutHandler}
-              className="w-full bg-white cta-btn font-semibold py-2 mt-5 rounded-br-lg rounded-bl-lg rounded-tr-lg shadow-lg hover:shadow-xl hover:bg-orange-50 flex items-center justify-center"
+            <Link
+              to={"droppedstudents"}
+              className="flex items-center active-nav-link text-white py-2 pl-4 nav-item"
             >
-              <i className="fas fa-sign-out-alt mr-3"></i>
-              Logout
-            </button>
+              <i className="fas fa-user-slash mr-3"></i>
+              Dropped Students
+            </Link>
+
+            <div className="flex gap-5">
+              <div className="z-10 h-12 mr-5 flex items-center px-2 bg-white rounded-lg hover:shadow-md hover:shadow-orange-800">
+                <GoogleTranslate />
+              </div>
+              <div className="ml-5">
+                <Link
+                  //   onClick={LogoutHandler}
+                  className="flex items-center active-nav-link text-white py-2 pl-4 nav-item"
+                >
+                  <i className="fas fa-tachometer-alt mr-3"></i>
+                  Logout
+                </Link>
+              </div>
+            </div>
           </nav>
         </header>
 

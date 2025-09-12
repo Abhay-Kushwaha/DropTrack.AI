@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import logo from "../Assets/logo.jpg";
+import GoogleTranslate from '../Components/GoogleTranslate';
 
 const BarChartIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-8 w-8 text-orange-500">
@@ -88,9 +89,14 @@ const App = () => {
                     </div>
 
                     {/* Login Button */}
-                    <a href="/login" className="hidden md:inline-block bg-orange-500 text-white px-6 py-2 rounded-full font-semibold text-lg hover:bg-orange-600 transition-transform duration-300 hover:scale-105 shadow-md">
-                        Login
-                    </a>
+                    <div className='flex'>
+                        <a href="/login" className="hidden md:inline-block bg-orange-500 text-white px-6 py-2 rounded-full font-semibold text-lg hover:bg-orange-600 transition-transform duration-300 hover:scale-105 shadow-md">
+                            Login
+                        </a>
+                        <div className="z-10 h-12 flex items-center mx-4 px-2 bg-black rounded-lg hover:shadow-md hover:shadow-orange-800">
+                            <GoogleTranslate />
+                        </div>
+                    </div>
 
                     {/* Mobile Menu Button */}
                     <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden text-gray-700">

@@ -24,13 +24,9 @@ exports.requestCounselling = async (req, res) => {
             }
         });
 
-        const mentors = await Mentor.find().sort({ counselling_done: 1 });
-        const least = mentors[0].counselling_done;
-        const eligible = mentors.filter(m => m.counselling_done === least);
-
-        // pick random among selected
-        const mentor = eligible[Math.floor(Math.random() * eligible.length)];
-
+        // Pick a random mentor (or logic to select based on dept / availability)
+        // const mentor = await Mentor.findOne();
+        const mentor = await Mentor.findOne({ Name: "Rohan Verma" });
         if (!mentor) {
             return res.status(404).json({ message: "No mentor available" });
         }
@@ -163,11 +159,8 @@ exports.concludeMeeting = async (req, res) => {
             {
                 $set: {
                     "Students.$.Concluded_msg": Concluded_msg,
-                    "Students.$.is_Contacted": true,
-                },
-                $inc: {
-                    "Students.$.counselling_done": 1,
-                },
+                    "Students.$.is_Contacted": true
+                }
             },
             { new: true }
         );

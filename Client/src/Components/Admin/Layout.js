@@ -10,6 +10,8 @@ import image from "./../../Assets/logo.jpg";
 import Swal from "sweetalert2";
 import { UserActions } from "../../Store/UserData";
 import { useDispatch } from "react-redux";
+import GoogleTranslate from "../GoogleTranslate";
+
 const AdminLayout = () => {
   const dispatch = useDispatch();
   dispatch(UserActions.getuserdata(useLoaderData()));
@@ -49,7 +51,7 @@ const AdminLayout = () => {
           </Link>
         </div>
         <nav className=" text-base font-semibold pt-3 overflow-y-scroll h-4/6">
-          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "dashboard" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("dashboard")}> 
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "dashboard" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("dashboard")}>
             <Link
               to={"/admin"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-orange-900 hover:text-orange-100 transition-colors duration-300 "
@@ -71,7 +73,7 @@ const AdminLayout = () => {
               Dashboard
             </Link>
           </div>
-          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "overallanalysis" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("overallanalysis")}> 
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "overallanalysis" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("overallanalysis")}>
             <Link
               to={"overallanalysis"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-orange-900 hover:text-orange-100 transition-colors duration-300"
@@ -122,7 +124,7 @@ const AdminLayout = () => {
             </Link>
           </div> */}
 
-          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "addresources" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("addresources")}> 
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "addresources" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("addresources")}>
             <Link
               to={"addresources"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-orange-900 hover:text-orange-100 transition-colors duration-300"
@@ -145,7 +147,7 @@ const AdminLayout = () => {
               Remedies Resources
             </Link>
           </div>
-          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "topanalysis" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("topanalysis")}> 
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "topanalysis" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("topanalysis")}>
             <Link
               to={"topanalysis"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-orange-900 hover:text-orange-100 transition-colors duration-300"
@@ -167,7 +169,7 @@ const AdminLayout = () => {
               Top Analysis
             </Link>
           </div>
-          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "statewiseDropoutAnalysis" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("statewiseDropoutAnalysis")}> 
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "statewiseDropoutAnalysis" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("statewiseDropoutAnalysis")}>
             <Link
               to={"statewiseDropoutAnalysis"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-orange-900 hover:text-orange-100 transition-colors duration-300"
@@ -183,7 +185,7 @@ const AdminLayout = () => {
               All State Dropout Analysis
             </Link>
           </div>
-          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "dropoutstudents" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("dropoutstudents")}> 
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "dropoutstudents" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("dropoutstudents")}>
             <Link
               to={"dropoutstudents"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-orange-900 hover:text-orange-100 transition-colors duration-300"
@@ -206,7 +208,7 @@ const AdminLayout = () => {
               All Dropout Students
             </Link>
           </div>
-          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "activestudents" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("activestudents")}> 
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "activestudents" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("activestudents")}>
             <Link
               to={"activestudents"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-orange-900 hover:text-orange-100 transition-colors duration-300"
@@ -229,7 +231,7 @@ const AdminLayout = () => {
               All Active Students
             </Link>
           </div>
-          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "schooldetails" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("schooldetails")}> 
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "schooldetails" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("schooldetails")}>
             <Link
               to={"schooldetails"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-orange-900 hover:text-orange-100 transition-colors duration-300"
@@ -251,7 +253,7 @@ const AdminLayout = () => {
               School Details
             </Link>
           </div>
-          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "remedies" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("remedies")}> 
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "remedies" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("remedies")}>
             <Link
               to={"remedies"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-orange-900 hover:text-orange-100 transition-colors duration-300"
@@ -273,7 +275,7 @@ const AdminLayout = () => {
               Remedies Details
             </Link>
           </div>
-          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "indiaMap" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("indiaMap")}> 
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "indiaMap" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("indiaMap")}>
             <Link
               to={"indiaMap"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-orange-900 hover:text-orange-100 transition-colors duration-300"
@@ -300,7 +302,7 @@ const AdminLayout = () => {
               India Map
             </Link>
           </div>
-          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "adddomain" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("adddomain")}> 
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "adddomain" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("adddomain")}>
             <Link
               to={"adddomain"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-orange-900 hover:text-orange-100 transition-colors duration-300"
@@ -322,7 +324,7 @@ const AdminLayout = () => {
               Add Entries
             </Link>
           </div>
-          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "addreason" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("addreason")}> 
+          <div className={`hover:shadow-orange-900 hover:shadow-md hover:bg-orange-900/40 transition-all duration-300 ${selectedSidebar === "addreason" ? "border-orange-900 bg-orange-900/80" : ""}`} onClick={() => setSelectedSidebar("addreason")}>
             <Link
               to={"addreason"}
               className="flex items-center active-nav-link text-white py-4 pl-6 nav-item gap-2 focus:outline-none focus:shadow-md focus:shadow-orange-900 hover:text-orange-100 transition-colors duration-300"
@@ -355,7 +357,9 @@ const AdminLayout = () => {
             className="relative w-1/2 flex justify-end"
           >
             {/* <NavLink to={""}> */}
-
+            <div className="z-10 h-12 flex items-center px-2 bg-white rounded-lg hover:shadow-md hover:shadow-orange-800">
+              <GoogleTranslate />
+            </div>
             <button
               onClick={LogoutHandler}
               className="realtive z-10 flex  px-2 rounded-lg h-12 hover:shadow-md hover:shadow-orange-300 bg-white overflow-hidden hover:bg-orange-50 hover:border-orange-300 focus:border-orange-300 focus:outline-none transition-all duration-300 "
@@ -438,13 +442,20 @@ const AdminLayout = () => {
               <i className="fas fa-tachometer-alt mr-3"></i>
               Dashboard
             </Link>
-            <Link
-              //   onClick={LogoutHandler}
-              className="flex items-center active-nav-link text-white py-2 pl-4 nav-item"
-            >
-              <i className="fas fa-tachometer-alt mr-3"></i>
-              Logout
-            </Link>
+            <div className="flex gap-5">
+              <div className="z-10 h-12 mr-5 flex items-center px-2 bg-white rounded-lg hover:shadow-md hover:shadow-orange-800">
+                <GoogleTranslate />
+              </div>
+              <div className="ml-5">
+                <Link
+                  //   onClick={LogoutHandler}
+                  className="flex items-center active-nav-link text-white py-2 pl-4 nav-item"
+                >
+                  <i className="fas fa-tachometer-alt mr-3"></i>
+                  Logout
+                </Link>
+              </div>
+            </div>
             <div>
               <NavLink to={"addauthority"}>
                 <button className="w-full bg-white cta-btn font-semibold py-2 mt-5 rounded-br-lg rounded-bl-lg rounded-tr-lg shadow-lg hover:shadow-xl hover:bg-gray-300 flex items-center justify-center">

@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import image from "./../../Assets/logo.jpg";
 import Swal from "sweetalert2";
+import GoogleTranslate from "../GoogleTranslate";
 import { UserActions } from "../../Store/UserData";
 
 const AuthorityLayout = () => {
@@ -324,38 +325,40 @@ const AuthorityLayout = () => {
       </aside>
 
       <div className="w-full flex flex-col h-screen overflow-y-hidden ">
-        <header className="w-full items-center bg-gradient-to-r from-orange-600 to-amber-500 shadow-orange-200 shadow-md py-2 px-6 hidden sm:flex">
-          <div className="w-1/2"></div>
-          <div className="relative w-1/2 flex justify-end">
-            <button
-              onClick={LogoutHandler}
-              className="relative z-10 flex px-2 rounded-lg h-12 hover:shadow-md hover:shadow-orange-800 bg-white overflow-hidden hover:bg-orange-100 hover:border-orange-300 focus:border-orange-300 focus:outline-none"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="w-6 h-6 m-auto"
+        {/* Top header */}
+        <header className="w-full items-center bg-gradient-to-r from-orange-500 to-amber-500 shadow-orange-300 shadow-md py-2 px-6 hidden sm:flex">
+          <div className="w-full"></div>
+
+          <div className="flex justify-right gap-5">
+            <div className="relative w-full flex justify-end">
+              <div className="z-10 h-12 flex items-center mx-2 px-2 bg-white rounded-lg hover:shadow-md hover:shadow-orange-800">
+                <GoogleTranslate />
+              </div>
+              <button
+                onClick={LogoutHandler}
+                className="relative z-10 flex px-2 rounded-lg h-12 hover:shadow-md hover:shadow-orange-300 bg-white overflow-hidden hover:bg-orange-50 hover:border-orange-300 focus:border-orange-300 focus:outline-none transition-all duration-300"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75"
-                />
-              </svg>
-              <div className="m-auto text-orange-700 font-bold">Logout</div>
-            </button>
-            <button
-              style={{ display: isOpen ? "block" : "none" }}
-              onClick={() => setIsOpen(false)}
-              className="h-full w-full fixed inset-0 cursor-default"
-            ></button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="w-6 h-6 m-auto"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75"
+                  />
+                </svg>
+                <div className="m-auto">Logout</div>
+              </button>
+            </div>
           </div>
         </header>
 
-        <header
+        {/* <header
           x-data="{ isOpen: false }"
           className="w-full bg-[#3d68ff] py-5 px-6 sm:hidden"
         >
@@ -408,13 +411,18 @@ const AuthorityLayout = () => {
               <i className="fas fa-tachometer-alt mr-3"></i>
               Dashboard
             </Link>
-            <Link
-              //   onClick={LogoutHandler}
-              className="flex items-center active-nav-link text-white py-2 pl-4 nav-item"
-            >
-              <i className="fas fa-tachometer-alt mr-3"></i>
-              Logout
-            </Link>
+            <div>
+              <div className="top-0 left-0 p-6 text-center">
+                <GoogleTranslate />
+              </div>
+              <Link
+                //   onClick={LogoutHandler}
+                className="flex items-center active-nav-link text-white py-2 pl-4 nav-item"
+              >
+                <i className="fas fa-tachometer-alt mr-3"></i>
+                Logout
+              </Link>
+            </div>
             <div>
               <NavLink to={"addauthority"}>
                 <button className="w-full bg-white cta-btn font-semibold py-2 mt-5 rounded-br-lg rounded-bl-lg rounded-tr-lg shadow-lg hover:shadow-xl hover:bg-gray-300 flex items-center justify-center">
@@ -433,7 +441,7 @@ const AuthorityLayout = () => {
               </NavLink>
             </div>
           </nav>
-        </header>
+        </header> */}
 
         <div className="w-full overflow-x-hidden border-t flex flex-col scrollbar ">
           <Outlet />
