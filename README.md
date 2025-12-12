@@ -26,8 +26,13 @@ DropTrack.AI is an innovative platform that leverages artificial intelligence to
 - **Performance Monitoring**: Track academic and behavioral indicators
 
 ## 📸 Project Demo
-- **Project Video**: [![Watch Video](https://img.youtube.com/vi/WfC9eiZ2A10/0.jpg)](https://youtu.be/WfC9eiZ2A10?si=hdq-AC6gmWAEWRwh)
-- **YouTube Demo**: [https://youtu.be/WfC9eiZ2A10?si=hdq-AC6gmWAEWRwh](https://youtu.be/WfC9eiZ2A10?si=hdq-AC6gmWAEWRwh)
+**Project Video**: 
+<video width="640" height="360" controls>
+  <source src="Technical_Details/Project_Video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+**YouTube Demo**: [https://youtu.be/WfC9eiZ2A10?si=hdq-AC6gmWAEWRwh](https://youtu.be/WfC9eiZ2A10?si=hdq-AC6gmWAEWRwh)
 
 ## 🛠️ Tech Stack
 ### Frontend
